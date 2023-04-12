@@ -193,7 +193,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| aaaaaaaaaaaaaaaaaaaaaaaaaaaaa | ALTA | 
 |RF-002| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  | MÉDIA |
-|RF-001| aaaaaaaaaaaaaaaaaaaaaaaaaaaa | ALTA | 
+|RF-002| aaaaaaaaaaaaaaaaaaaaaaaaaaaa | ALTA | 
 |RF-002| aaaaaaaaaaaaaaaaaaaaaaaaa  | MÉDIA |
 |RF-002| aaaaaaaaaaaaaaaaaaaaaaaaaaa   | MÉDIA |
 
