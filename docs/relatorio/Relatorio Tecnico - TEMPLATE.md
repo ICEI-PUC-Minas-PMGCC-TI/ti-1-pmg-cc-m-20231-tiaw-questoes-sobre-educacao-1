@@ -191,11 +191,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| aaaaaaaaaaaaaaaaaaaaaaaaaaaaa | ALTA | 
-|RF-002| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  | MÉDIA |
-|RF-002| aaaaaaaaaaaaaaaaaaaaaaaaaaaa | ALTA | 
-|RF-002| aaaaaaaaaaaaaaaaaaaaaaaaa  | MÉDIA |
-|RF-002| aaaaaaaaaaaaaaaaaaaaaaaaaaa   | MÉDIA |
+|RF-001| Permitir que o usuário pesquise temas específicos diretamente da página principal. | ALTA | 
+|RF-002| Permitir que o usuário filtre os exercícios de cada tema por ano, prova e dificuldade.  | MÉDIA |
+|RF-003| Recomendar, na aba de cada disciplina, os temas mais pesquisados pelos usuários.| BAIXA | 
+|RF-004| Permitir que o usuário acesse alguns vídeos diretamente da página "temas". | MÉDIA |
 
 
 ### Requisitos não Funcionais
