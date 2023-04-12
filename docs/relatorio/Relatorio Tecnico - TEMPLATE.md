@@ -21,7 +21,7 @@ Karina Edith Castro Sander Morais
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - asdfghl
+> - fulano
 > - Ciclano Albuquerque
 
 # Estrutura do Documento
