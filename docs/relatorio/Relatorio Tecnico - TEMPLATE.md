@@ -57,7 +57,8 @@ Karina Edith Castro Sander Morais
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Como dito anteriormente, os conteúdos e materiais se encontram dispersos pela internet e com baixa verificação de qualidade, o que dificulta a pesquisa
+> realizada pelos estudantes e interessados. Nosso projeto busca auxiliar esses usuários a encontrarem conteúdos de qualidade e reunidos.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -77,7 +78,10 @@ Karina Edith Castro Sander Morais
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ O objetivo geral deste trabalho é a criação de uma plataforma que junte e disponibilize, de maneira facilitada e de acesso universal, conteúdos e materiais acerca de determinado assunto, que esteja relacionado com matérias do ensino médio, ajudando estudantes e pessoas interessadas sobre o assunto.
+ Como objetivos específicos, podemos ressaltar:
+   . Fornecer funcionalidades que ressaltem os melhores conteúdos sobre o assunto
+   . Disponibilizar uma aba com o resumo, vídeos e exercícios sobre o assunto.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -90,7 +94,7 @@ Karina Edith Castro Sander Morais
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A internet se tornou essencial para o auxílio de estudantes, tendo seu crescimento com a pandemia e o EAD, obrigando professores e estudantes se conectarem
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -106,7 +110,7 @@ Karina Edith Castro Sander Morais
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O nosso principal público-alvo são alunos do Ensino médio, os pré-vestibulandos e pessoas de idades mais avançadas que queiram aprender conteúdos dados nas escolas.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
