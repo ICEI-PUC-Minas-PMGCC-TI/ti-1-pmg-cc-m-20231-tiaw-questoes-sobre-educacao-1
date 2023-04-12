@@ -202,8 +202,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Atualizar mensalmente a base de dados dos conteúdos | MÉDIA | 
+|RNF-002| Melhorar a interface para aplicativo móvel | ALTA | 
+|RNF-003| Processar pedidos de novos conteúdos semanalmente | MÉDIA | 
+|RNF-004| Proteger os dados pessoais de cada usuário |  ALTA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
