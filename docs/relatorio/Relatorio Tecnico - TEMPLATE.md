@@ -1,20 +1,27 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Studify ......
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Ciências da Computação/Turno:manhã ......
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... 
+> - Gabriel Alkmim Barros
+> - Gabriel de Cortez Mourão
+> - Guilherme Henrique Siqueira de Lana
+> - João Gabriel Santos Andrade Almeida
+> - Pedro Hosken Fernandes Guimarães
+Karina Edith Castro Sander Morais
+......
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
+> - asdfghl
 > - Ciclano Albuquerque
 
 # Estrutura do Documento
