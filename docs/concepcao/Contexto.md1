@@ -1,28 +1,18 @@
 # Introdução
+
 > Com o aumento da disponibilidade de conteúdos on-line, nos dias de hoje
 > se torna necessário a validação e o englobamento desses materiais para 
 > facilitar e melhorar a experiencia do usuário.
 > Nesse sentido, uma área que foi bastante afetada com essa enxurrada de informações e conteúdos
-> foi a área de educação, principalmente as matérias do ensino médio.
-> Desse modo, os alunos que estão estudando esse conteúdo passam por uma experiencia dificultada,
+> foi a área de educação, principalmente as matérias do ensino médio, que possuem bastante oferta e demanda.
+> Desse modo, os alunos que estão estudando esse tipo de conteúdo passam por uma experiencia dificultada,
 > visto que a internet é um dos principais meios utilizados para estudo, seja relacionado na proucura de exercícios, videoaulas, resumos ou para tirar
-> dúvidas.
+> dúvidas, e com esse enormidade de conteúdo disperso e sem validação
 > Nesse contexto, torna-se necessário a criação de uma plataforma que auxilie os alunos encontrarem materiais online de qualidade e de forma agrupada, 
 > facilitando a sua navegação.
 
-
-
 ## Problema
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
+> Como dito anteriormente, os conteúdos e materiais se encontram dispersos pela internet e com baixa verificação de qualidade, o que dificulta os estudantes
 
 
 ## Objetivos
@@ -63,7 +53,5 @@
 > textual, ou diagramas de personas, mapa de stakeholders, ou como o
 > grupo achar mais conveniente.
 > 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
  
