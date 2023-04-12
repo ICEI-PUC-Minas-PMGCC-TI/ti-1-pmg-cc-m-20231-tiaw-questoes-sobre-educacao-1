@@ -195,6 +195,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Permitir que o usuário filtre os exercícios de cada tema por ano, prova e dificuldade.  | MÉDIA |
 |RF-003| Recomendar, na aba de cada disciplina, os temas mais pesquisados pelos usuários.| BAIXA | 
 |RF-004| Permitir que o usuário acesse alguns vídeos diretamente da página "temas". | MÉDIA |
+|RF-005| Permitir que o usuário acesse o histórico de exercícios realizados e a porcentagem de acertos. | BAIXA |
 
 
 ### Requisitos não Funcionais
