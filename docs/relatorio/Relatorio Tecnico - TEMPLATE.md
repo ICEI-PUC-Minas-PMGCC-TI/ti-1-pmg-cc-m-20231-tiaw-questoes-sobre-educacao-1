@@ -195,7 +195,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Permitir que o usuário filtre os exercícios de cada tema por ano, prova e dificuldade.  | MÉDIA |
 |RF-003| Recomendar, na aba de cada disciplina, os temas mais pesquisados pelos usuários.| BAIXA | 
 |RF-004| Permitir que o usuário acesse alguns vídeos diretamente da página "temas". | MÉDIA |
-|RF-005| Permitir que o usuário acesse o histórico de exercícios realizados e a porcentagem de acertos. | BAIXA |
 
 
 ### Requisitos não Funcionais
@@ -328,7 +327,29 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+| Ambiente  | Plataforma              |Link de Acesso |
+|-----------|-------------------------|---------------|
+|Processo de Design Thinking  | Miro/Google Docs |  https://miro.com/app/board/uXjVMU6iLHA=/  --/--  https://docs.google.com/document/d/1ZU70-QrEEN2EgrgSHwWD-5lSUGG2r8eTpkAz8TjTwDQ/edit?usp=sharing | 
+|Repositório de código | GitHub |  https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-questoes-sobre-educacao-1/edit/master/docs/relatorio/Relatorio%20Tecnico%20-%20TEMPLATE.md  | 
+|Listagem de tarefas | Trello |  https://trello.com/invite/b/FdkY24Xh/ATTI4fda10ebf9968bd628a0bb8329754679A355C309/sprint-i | 
+| Construção do Wireframe | Marvel App | https://marvelapp.com/prototype/881c0cj |
+
+
+As ferramentas empregadas no projeto são:
+
+> - Editor de código
+> - Ferramentas de comunicação
+> - Ferramentas de organização
+> - Ferramentas de pesquisa 
+
+
+
+Usamos o editor de códigos para criar nossas estruturas de wireframe. Utilizamos as ferramentas de comunicação para interagimos uns com os outros em tempo real para a realização sincronizada das tarefas, além de disseminar as nossas perguntas qualitativas para várias pessoas. As ferramentas de organização foram usadas para ajudar o grupo na divisão das tarefas e na dinamização do trabalho. E por fim, utilizamos as ferramentas de pesquisa para aprofundarmos nos dados que precisamos e para nos dar um suporte para contruírmos uma solução coerente.
+
+
+
+
+
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
