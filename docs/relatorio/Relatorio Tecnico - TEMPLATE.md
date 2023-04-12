@@ -137,7 +137,18 @@ O nosso principal público-alvo são alunos do Ensino médio, os pré-vestibulan
 
 ## Personas, Empatia e Proposta de Valor
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Janaina | Quer saber quais conteúdos ela precisa mais de estudar          | Organizar o que mais precisa de estudar e a ordem             |
+|Janaina | Seleção e filtração de exercícios de acordo com o que está estudando e já estudou                 | Conseguir fazer exercícios sem ter de se preocupar em selecionar obtê-los |
+|Janaina | Fácil acesso para a explicação de um conteúdo sobre o exercício na qual ela errou               | Menos dificuldade e esforço para a revisão |
+|Lucas | Menos dificuldade pesquisando algum conteúdo específico que teve dúvida em aula                 | Revisar com maior facilidade apenas a parte que não entendeu |
+|Lucas | Aprender tanto no celular quanto no computador                 | Ocupar o tempo livre em casa e na loja estudando |
+|Gabriel | Abrir no celular facilmente uma lista exercícios possíveis de fazer mentalmente                | Reforçar o seu aprendizado quando estiver no carro à caminho ou voltando do cursinho e da academia |
+|Gabriel | Ver estatística de acertos e tempo de demora para a execução dos exercícios feitos por mês                | Ver seu progresso e como está melhorando em algumas matérias |
+://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
@@ -168,13 +179,6 @@ O nosso principal público-alvo são alunos do Ensino médio, os pré-vestibulan
 
 
 ## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
