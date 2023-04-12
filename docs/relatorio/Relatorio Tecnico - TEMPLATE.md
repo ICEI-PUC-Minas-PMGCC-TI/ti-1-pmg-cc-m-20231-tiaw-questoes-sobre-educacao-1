@@ -18,12 +18,6 @@
 Karina Edith Castro Sander Morais
 ......
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - fulano
-> - Ciclano Albuquerque
-
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
@@ -298,7 +292,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......   ......
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
