@@ -219,6 +219,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Permitir que o usuário filtre os exercícios de cada tema por ano, prova e dificuldade.  | MÉDIA |
 |RF-003| Recomendar, na aba de cada disciplina, os temas mais pesquisados pelos usuários.| BAIXA | 
 |RF-004| Permitir que o usuário acesse alguns vídeos diretamente da página "temas". | MÉDIA |
+|RF-005| Permitir que o usuário tenha acesso aos resumo na página de conteúdo. | ALTA |
+|RF-006| Permitir que o usuário faça login e tenha sua conta pessoal. | ALTA |
+|RF-007| Permitir que o usuário com sua conta pessoal salve conteúdos de interesse. | MÉDIA |
+|RF-008| Permitir que o usuário receba notícias da plataforma através do email cadastrado na newsletter. | ALTA |
+|RF-009| Permitir que o usuário possa filtrar na aba de videos, da forma desejada . | BAIXA |
+|RF-010| Permitir que o usuário acesse as redes sociais do STUDIFY, por meio dos links fixados no rodapé. | ALTA |
+
+
+
 
 
 ### Requisitos não Funcionais
