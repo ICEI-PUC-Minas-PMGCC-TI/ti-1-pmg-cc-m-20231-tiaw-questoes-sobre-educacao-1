@@ -225,6 +225,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Permitir que o usuário receba notícias da plataforma através do email cadastrado na newsletter. | ALTA |
 |RF-009| Permitir que o usuário possa filtrar na aba de videos, da forma desejada . | BAIXA |
 |RF-010| Permitir que o usuário acesse as redes sociais do STUDIFY, por meio dos links fixados no rodapé. | ALTA |
+|RF-011| O site deve permitir que usuários possam comentar em nos videos e exercicios sobre os temas. | BAIXA |
+|RF-010| O site deve se adequar ao formato mobile. | ALTA |
+
+
 
 
 
