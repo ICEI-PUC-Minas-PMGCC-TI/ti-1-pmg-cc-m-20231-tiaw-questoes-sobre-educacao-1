@@ -55,6 +55,16 @@ Karina Edith Castro Sander Morais
 
 # Introdução
 
+> Com o aumento da disponibilidade de conteúdos on-line, nos dias de hoje
+> se torna necessário a validação e o englobamento desses materiais para 
+> facilitar e melhorar a experiencia do usuário.
+> Nesse sentido, uma área que foi bastante afetada com essa enxurrada de informações e conteúdos
+> foi a educação, principalmente as matérias do ensino médio, que possuem bastante oferta e demanda.
+> Desse modo, os alunos que estão estudando esse tipo de conteúdo passam por uma experiencia dificultada,
+> visto que a internet é um dos principais meios utilizados para estudo, seja relacionado na proucura de exercícios, videoaulas, resumos ou para tirar
+> dúvidas, e com esse enormidade de conteúdo disperso e sem validação, eles passam por uma pesquisa prolongada, gastando mais tempo.
+> Nesse contexto, torna-se necessário a criação de uma plataforma que auxilie os alunos encontrarem materiais online de qualidade e de forma agrupada, 
+> facilitando a sua navegação.
 ## Problema
 
 > Como dito anteriormente, os conteúdos e materiais se encontram dispersos pela internet e com baixa verificação de qualidade, o que dificulta a pesquisa
@@ -80,8 +90,8 @@ Karina Edith Castro Sander Morais
 
 > O objetivo geral deste trabalho é a criação de uma plataforma que junte e disponibilize, de maneira facilitada e de acesso universal, conteúdos e materiais acerca de > determinado assunto, que esteja relacionado com matérias do ensino médio, ajudando estudantes e pessoas interessadas sobre o assunto.
 > Como objetivos específicos, podemos ressaltar:
-   . Fornecer funcionalidades que ressaltem os melhores conteúdos sobre o assunto
-   . Disponibilizar uma aba com o resumo, vídeos e exercícios sobre o assunto.
+  > . Fornecer funcionalidades que ressaltem os melhores conteúdos sobre o assunto
+  > . Disponibilizar uma aba com o resumo, vídeos e exercícios sobre o assunto.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
