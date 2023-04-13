@@ -57,7 +57,7 @@ Karina Edith Castro Sander Morais
 
 ## Problema
 
-Como dito anteriormente, os conteúdos e materiais se encontram dispersos pela internet e com baixa verificação de qualidade, o que dificulta a pesquisa
+> Como dito anteriormente, os conteúdos e materiais se encontram dispersos pela internet e com baixa verificação de qualidade, o que dificulta a pesquisa
 > realizada pelos estudantes e interessados. Nosso projeto busca auxiliar esses usuários a encontrarem conteúdos de qualidade e reunidos.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
@@ -78,8 +78,8 @@ Como dito anteriormente, os conteúdos e materiais se encontram dispersos pela i
 
 ## Objetivos
 
- O objetivo geral deste trabalho é a criação de uma plataforma que junte e disponibilize, de maneira facilitada e de acesso universal, conteúdos e materiais acerca de determinado assunto, que esteja relacionado com matérias do ensino médio, ajudando estudantes e pessoas interessadas sobre o assunto.
- Como objetivos específicos, podemos ressaltar:
+> O objetivo geral deste trabalho é a criação de uma plataforma que junte e disponibilize, de maneira facilitada e de acesso universal, conteúdos e materiais acerca de > determinado assunto, que esteja relacionado com matérias do ensino médio, ajudando estudantes e pessoas interessadas sobre o assunto.
+> Como objetivos específicos, podemos ressaltar:
    . Fornecer funcionalidades que ressaltem os melhores conteúdos sobre o assunto
    . Disponibilizar uma aba com o resumo, vídeos e exercícios sobre o assunto.
 
@@ -94,7 +94,10 @@ Como dito anteriormente, os conteúdos e materiais se encontram dispersos pela i
 
 ## Justificativa
 
-A internet se tornou essencial para o auxílio de estudantes, tendo seu crescimento com a pandemia e o EAD, obrigando professores e estudantes se conectarem
+> A internet se tornou essencial para o auxílio de estudantes, tendo seu crescimento com a pandemia e o EAD, obrigando professores e estudantes se conectarem
+> por meio da rede. Sob essa lógica, alunos passaram a recorrer cada vez mais plataformas online para retirar dúvidas e aprofundar seu conhecimento, logo nós iremos
+> ajudar-los à localizarem de maneira mais fácil e acessível os conteúdos acerca de determinado assunto. Além do mais, falta uma plataforma que reuna de uma forma
+> qualificada os materiais, obrigando os usuários a se deslocarem entre páginas. 
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -110,7 +113,9 @@ A internet se tornou essencial para o auxílio de estudantes, tendo seu crescime
 
 ## Público-Alvo
 
-O nosso principal público-alvo são alunos do Ensino médio, os pré-vestibulandos e pessoas de idades mais avançadas que queiram aprender conteúdos dados nas escolas.
+> O nosso principal público-alvo são alunos do Ensino médio, os pré-vestibulandos e pessoas interessadas que queiram aprender conteúdos dados nas escolas.
+> O nosso público deve ter acesso a internet, mas não necessita ter um conhecimento vasto sobre como navegar, pois nossa plataforma será bastante simples e
+> auto-explicativa.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
