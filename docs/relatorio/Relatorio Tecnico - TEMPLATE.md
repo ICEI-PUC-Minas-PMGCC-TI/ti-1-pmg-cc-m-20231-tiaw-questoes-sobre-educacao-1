@@ -88,7 +88,8 @@ Karina Edith Castro Sander Morais
 
 ## Objetivos
 
-> O objetivo geral deste trabalho é a criação de uma plataforma que junte e disponibilize, de maneira facilitada e de acesso universal, conteúdos e materiais acerca de > determinado assunto, que esteja relacionado com matérias do ensino médio, ajudando estudantes e pessoas interessadas sobre o assunto.
+> O objetivo geral deste trabalho é a criação de uma plataforma que junte e disponibilize, de maneira facilitada e de acesso universal, conteúdos e materiais acerca de
+> determinado assunto, que esteja relacionado com matérias do ensino médio, ajudando estudantes e pessoas interessadas sobre o assunto.
 > Como objetivos específicos, podemos ressaltar:
   > . Fornecer funcionalidades que ressaltem os melhores conteúdos sobre o assunto
   > . Disponibilizar uma aba com o resumo, vídeos e exercícios sobre o assunto.
