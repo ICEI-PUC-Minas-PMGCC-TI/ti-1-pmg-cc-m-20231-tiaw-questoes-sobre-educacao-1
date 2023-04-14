@@ -170,7 +170,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 
 ![[images/Persona1]]
-![](images/Persona1)
+![Persona 1](images/Persona1.png)
 ![](images/PERSONA2)
 ![](images/PERSONA3)
 
