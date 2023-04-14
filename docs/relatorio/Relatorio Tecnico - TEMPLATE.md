@@ -285,7 +285,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+A principal interface do site seria a que mais resolvesse as questões abordadas nos requisitos funcionais. Ela contém os ícones para o compartilhamento das redes socias do projeto, contém também a parte de login, na qual é expressa para o usuário para ter saves e segurança dos seus dados. Além de também ter a sessão "Newsletter", parte essa que também foi abordada nos requisitos. 
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
