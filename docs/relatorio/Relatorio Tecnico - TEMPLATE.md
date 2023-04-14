@@ -370,7 +370,6 @@ A parte de conteúdo da tela apresenta, além dos exercícios, os gabaritos de c
 <br>
 <br>
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
