@@ -298,8 +298,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
+> O diagrama apresentado mostra o fluxo de Interação do usuário pelas telas do sistema. 
+> As telas do fluxo do usuário são detalhadas na seção de wireframes que se segue.
+> 
 > ![Nosso user flow](images/flowmap.png)
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
