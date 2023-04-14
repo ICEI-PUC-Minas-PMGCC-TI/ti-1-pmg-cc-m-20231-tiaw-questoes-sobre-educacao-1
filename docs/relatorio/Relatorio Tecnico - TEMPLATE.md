@@ -168,9 +168,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Gabriel | Abrir no celular facilmente uma lista exercícios possíveis de fazer mentalmente                | Reforçar o seu aprendizado quando estiver no carro à caminho ou voltando do cursinho e da academia |
 |Gabriel | Ver estatística de acertos e tempo de demora para a execução dos exercícios feitos por mês                | Ver seu progresso e como está melhorando em algumas matérias |
 
-![personar 1](images/Persona1)
-![persona 2](images/PERSONA2)
-![persona 3](images/PERSONA3)
+![](images/Persona1)
+![](images/PERSONA2)
+![](images/PERSONA3)
 
 
 
