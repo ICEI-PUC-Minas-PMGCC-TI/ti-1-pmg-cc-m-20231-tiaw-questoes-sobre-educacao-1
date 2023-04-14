@@ -145,7 +145,10 @@ Karina Edith Castro Sander Morais
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A seguir estão sendo apresentados as nossas personas, histórias de valor e os requisitos funcionais e não funcionais. Utilizamos para a criação e discussão das personas: 
+DOCS(para discussão das suas características e peculiariedades)
+LINKS DO RELATÓRIO TÉCNICO E CANVAS(para a criação das personas em geral)
+SITES DE PESQUISA(para termos uma base de como seriam nossos requisitos)
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
