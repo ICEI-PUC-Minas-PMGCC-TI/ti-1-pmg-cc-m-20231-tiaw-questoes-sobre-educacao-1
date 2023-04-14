@@ -169,7 +169,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Gabriel | Ver estatística de acertos e tempo de demora para a execução dos exercícios feitos por mês                | Ver seu progresso e como está melhorando em algumas matérias |
 <br>
 <br>
-![persona 1](images/Persona1)<br>
+![](images/Persona1)<br>
 ![persona 2](images/PERSONA2)<br>
 ![persona 3](images/PERSONA3)<br>
 
