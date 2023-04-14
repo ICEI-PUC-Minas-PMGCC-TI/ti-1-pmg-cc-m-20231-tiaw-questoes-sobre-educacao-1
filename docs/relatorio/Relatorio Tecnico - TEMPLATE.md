@@ -389,7 +389,8 @@ A parte de conteúdo da tela apresenta, além dos exercícios, os gabaritos de c
 
 # Metodologia
 
-......   ......
+Começamos a contrução do projeto de uma forma mais coletiva, não formamos subgrupos no primeiro momento, mas conseguimos desenvolver muito bem o trabalho  mesmo não sendo da forma mais otimizada. Depois, começamos a dividir as tarefas por escolha dos temas do relatório técnico(Ex: wireframe, personas, apresentação, etc), assim o projeto foi se aperfeiçoando. 
+Durante todo o progresso tentamos sempre colocar como referência a pesquisa que fizemos pelo forms, que apresentava a opinião real de pessoas que sofrem com a problemática. Dessa forma, nós conseguimos adaptar nossa ideia para a solução de maneira menos desconexa com a realidade.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
