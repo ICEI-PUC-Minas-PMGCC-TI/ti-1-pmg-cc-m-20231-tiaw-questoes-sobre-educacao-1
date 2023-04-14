@@ -320,6 +320,56 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
+Tela - Página Inicial
+<br>A tela da página inicial mostra os conteúdos e disciplinas em destaque na plataforma.
+Além disso, por meio do cabeçalho, o usuário tem a possibilidade de criar conta, fazer login na plataforma, acessar a seção de vídeos e a seção de exercícios. A parte de conteúdos traz três opções ao usuário: 
+-  Barra de pesquisa utilizada para a busca de temas ou disciplinas especificas
+-  Carrossel de disciplinas que leva o usuário a página de cada uma delas
+-  Opções dos temas mais pesquisados no site
+<br>![Página Inicial](images/homepage.png) <br>
+<br>
+<br>
+Tela – Login
+<br>A tela de Login é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Login” no cabeçalho. Nesta tela, é possível que o usuário acesse sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.
+<br>![Página Inicial](images/login.png) <br>
+<br>
+<br>
+Tela – Criar conta
+<br>A tela de Criação de Conta é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Crie sua conta grátis” no cabeçalho. Nesta tela, é possível que o usuário crie sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.
+<br>![Página Criar conta](images/createacc.png) <br>
+<br>
+<br>
+Tela – Disciplinas
+<br>A tela de disciplinas mostra os conteúdos específicos de uma determinada matéria. 
+A parte de conteúdo da tela apresenta o nome e uma foto da disciplina em questão, uma lista de temas disponíveis dentro da matéria e uma sessão que apresenta os temas mais vistos. Esta página pode ser acessada por meio da Página principal ou por meio do cabeçalho, a partir de outras telas.
+<br>![Disciplinas](images/discipline.png) <br>
+<br>
+<br>
+Tela – Temas
+<br>A tela de Temas mostra um conteúdo especifico de uma determinada disciplina.
+A parte de conteúdo da tela apresenta o nome do tema, uma explicação teórica e algumas opções de vídeos sobre o mesmo. Esta página pode ser acessada por meio da Página de Disciplinas, ou por meio de pesquisas na barra de pesquisa da Página Principal.
+<br>![Temas](images/theme_content.png) <br>
+<br>
+<br>
+Tela – Vídeos
+<br>A tela de Vídeos apresenta vídeos de diversos temas. Os vídeos podem ser filtrados por temas e disciplinas por meio da barra de pesquisa da página.
+A parte de conteúdo da tela apresenta uma barra de pesquisa para especificar a busca e opções de vídeos para serem assistidos, possuindo cada um, uma breve descrição do conteúdo a ser exibido. Esta página pode ser acessada por meio da Página Principal, no cabeçalho, e por dentro da Página de Temas.
+<br>![Videos](images/videos.png) <br>
+<br>
+<br>
+Tela – Exibição de Vídeo
+<br>A tela de exibição de vídeos apresenta um vídeo, sua descrição e a opção de mais vídeos sobre o mesmo tema.
+A parte de conteúdo da tela apresenta um vídeo, a descrição do mesmo, outras opções de vídeos do mesmo tema ou de temas parecidos e uma barra de pesquisa para a busca de vídeos de outros assuntos.
+<br>![Exibição de vídeos](images/viewvideo.png) <br>
+<br>
+<br>
+Tela – Exercícios
+<br>A tela de Vídeos apresenta alguns exercícios de um determinado tema ou disciplina.
+A parte de conteúdo da tela apresenta, além dos exercícios, os gabaritos de cada um, que podem ser acessados ao clicar no botão “ver resposta”. Esta página pode ser acessada pela Página Principal, por meio do cabeçalho.
+<br>![Exercício](images/exercise.png) <br>
+<br>
+<br>
+
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
