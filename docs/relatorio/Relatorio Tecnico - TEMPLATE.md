@@ -298,7 +298,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-> O diagrama apresentado mostra o fluxo de Interação do usuário pelas telas do sistema. 
+> O diagrama apresentado mostra o fluxo de Interação do usuário pelas telas do sistema.<br>
 > As telas do fluxo do usuário são detalhadas na seção de wireframes que se segue.
 > 
 > ![Nosso user flow](images/flowmap.png)
@@ -319,6 +319,16 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Wireframes
+
+> Tela - Página Inicial<br>
+<br>
+> A tela de página inicial mostra as disciplinas e temas principais. Além disso, no seu cabeçalho, também apresenta links para a criação de conta, login do usuário, >acesso à página de exercícios e acesso aos vídeos.<br>
+> **- Cabeçalho**: local onde são dispostos elementos fixos de identidade e navegação principal do site
+> **- Conteúdo**:  
+
+
+
+![Wireframe Página inicial](images/homepage.png)
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
