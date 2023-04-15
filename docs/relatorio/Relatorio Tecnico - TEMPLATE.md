@@ -346,7 +346,7 @@ Tela – Login
 <br>
 Tela – Criar conta
 <br>A tela de Criação de Conta é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Crie sua conta grátis” no cabeçalho. Nesta tela, é possível que o usuário crie sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.<br>
-![Página Criar conta](images/createacc.png) <br>
+<br>![Página Criar conta](images/createacc.png) <br>
 <br>
 <br>
 Tela – Disciplinas
