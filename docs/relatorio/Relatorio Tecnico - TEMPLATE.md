@@ -15,7 +15,7 @@
 > - Guilherme Henrique Siqueira de Lana
 > - João Gabriel Santos Andrade Almeida
 > - Pedro Hosken Fernandes Guimarães
-Karina Edith Castro Sander Morais
+> - Karina Edith Castro Sander Morais
 ......
 
 # Estrutura do Documento
