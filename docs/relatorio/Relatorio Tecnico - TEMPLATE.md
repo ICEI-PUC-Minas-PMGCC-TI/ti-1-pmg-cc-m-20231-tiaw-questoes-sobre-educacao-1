@@ -341,9 +341,10 @@ Além disso, por meio do cabeçalho, o usuário tem a possibilidade de criar con
 <br>
 Tela – Login
 <br>A tela de Login é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Login” no cabeçalho. Nesta tela, é possível que o usuário acesse sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.<br>
+
 ![Página Inicial](images/login.png)
-<br>
-<br>
+
+
 Tela – Criar conta
 <br>A tela de Criação de Conta é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Crie sua conta grátis” no cabeçalho. Nesta tela, é possível que o usuário crie sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.<br>
 ![criarc](images/createacc.png)
