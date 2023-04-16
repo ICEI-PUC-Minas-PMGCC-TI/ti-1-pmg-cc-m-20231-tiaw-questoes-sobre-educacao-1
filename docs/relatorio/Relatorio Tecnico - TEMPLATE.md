@@ -281,8 +281,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| A sprint 1 do projeto deverá ser entregue até dia 16/04 |
-|02| O projeto, no momento da entrega, deve estar de acordo com os parâmetros instituídos pelos professores        |
+|01| A sprint 1 do projeto deverá ser entregue até dia 16/04. |
+|02| O projeto, no momento da entrega, deve estar de acordo com os parâmetros instituídos pelos professores.       |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
