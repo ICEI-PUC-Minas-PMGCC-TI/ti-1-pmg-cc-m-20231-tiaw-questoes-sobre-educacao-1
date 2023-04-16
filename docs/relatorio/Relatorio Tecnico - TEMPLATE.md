@@ -316,7 +316,7 @@ Usamos o editor de códigos para criar nossas estruturas de wireframe. Utilizamo
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> O projeto será realizado no gitHub versão 1.0.
+> O projeto será realizado no gitHub.
 > Para o gerenciamento das versões, em cada problema encontrado iremos vai criar um branch de bugfix.
 > A ferramenta de controle de versão adotada no projeto foi o
 > [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
