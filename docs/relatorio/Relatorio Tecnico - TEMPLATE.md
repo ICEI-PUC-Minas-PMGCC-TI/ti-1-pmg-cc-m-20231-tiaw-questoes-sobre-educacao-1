@@ -222,6 +222,8 @@ Tela – Login
 Tela – Criar conta
 <br>A tela de Criação de Conta é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Crie sua conta grátis” no cabeçalho. Nesta tela, é possível que o usuário crie sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.<br>
 ![criarc](images/createacc.png)
+
+
 Tela – Disciplinas
 <br>A tela de disciplinas mostra os conteúdos específicos de uma determinada matéria. 
 A parte de conteúdo da tela apresenta o nome e uma foto da disciplina em questão, uma lista de temas disponíveis dentro da matéria e uma sessão que apresenta os temas mais vistos. Esta página pode ser acessada por meio da Página principal ou por meio do cabeçalho, a partir de outras telas.<br>
