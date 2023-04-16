@@ -268,13 +268,13 @@ Durante todo o progresso tentamos sempre colocar como referência a pesquisa que
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Gabriel Alkmim Barros: Projeto de Interface e Especificações do projeto.
+Gabriel de Cortez Mourão: Design Thinking e Especificações do projeto.
+Guilherme Henrique Siqueira de Lana: Projeto de Interface.
+João Gabriel Santos Andrade Almeida: Especificações do projeto e Metodologia.
+Pedro Hosken Fernandes Guimarães: Apresentação, Aba de concepção e contexto do projeto.
+Karina Edith Castro Sander Morais: Design Thinking.
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 
 ## Ferramentas
