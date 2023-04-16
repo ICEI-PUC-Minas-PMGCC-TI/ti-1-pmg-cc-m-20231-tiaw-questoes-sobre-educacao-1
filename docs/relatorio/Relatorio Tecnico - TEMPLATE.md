@@ -15,7 +15,7 @@
 > - Guilherme Henrique Siqueira de Lana
 > - João Gabriel Santos Andrade Almeida
 > - Pedro Hosken Fernandes Guimarães
-Karina Edith Castro Sander Morais
+> - Karina Edith Castro Sander Morais
 ......
 
 # Estrutura do Documento
@@ -281,8 +281,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| A sprint 1 do projeto deverá ser entregue até dia 16/04. |
+|02| O projeto, no momento da entrega, deve estar de acordo com os parâmetros instituídos pelos professores.       |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
@@ -336,20 +336,17 @@ Além disso, por meio do cabeçalho, o usuário tem a possibilidade de criar con
 -  Barra de pesquisa utilizada para a busca de temas ou disciplinas especificas
 -  Carrossel de disciplinas que leva o usuário a página de cada uma delas
 -  Opções dos temas mais pesquisados no site
-<br>![Página Inicial](images/homepage.png) <br>
+<br>![Página Inicial](images/homepage.png)
 <br>
 <br>
 Tela – Login
 <br>A tela de Login é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Login” no cabeçalho. Nesta tela, é possível que o usuário acesse sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.<br>
+![Página Inicial](images/login.png)
 <br>
-
-![Página Inicial](images/imagem login) 
-
+<br>
 Tela – Criar conta
 <br>A tela de Criação de Conta é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Crie sua conta grátis” no cabeçalho. Nesta tela, é possível que o usuário crie sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.<br>
-<br>![Página Criar conta](images/createacc.png) <br>
-<br>
-<br>
+![criarc](images/createacc.png)
 Tela – Disciplinas
 <br>A tela de disciplinas mostra os conteúdos específicos de uma determinada matéria. 
 A parte de conteúdo da tela apresenta o nome e uma foto da disciplina em questão, uma lista de temas disponíveis dentro da matéria e uma sessão que apresenta os temas mais vistos. Esta página pode ser acessada por meio da Página principal ou por meio do cabeçalho, a partir de outras telas.<br>
@@ -421,7 +418,7 @@ Durante todo o progresso tentamos sempre colocar como referência a pesquisa que
 
 ## Divisão de Papéis
 
-PEDRO HOSKEN: Concepção, apresentação, 
+......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
