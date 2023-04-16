@@ -15,7 +15,7 @@
 > - Guilherme Henrique Siqueira de Lana
 > - João Gabriel Santos Andrade Almeida
 > - Pedro Hosken Fernandes Guimarães
-> - Karina Edith Castro Sander Morais
+Karina Edith Castro Sander Morais
 ......
 
 # Estrutura do Documento
@@ -281,8 +281,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| A sprint 1 do projeto deverá ser entregue até dia 16/04. |
-|02| O projeto, no momento da entrega, deve estar de acordo com os parâmetros instituídos pelos professores.       |
+|01| O projeto deverá ser entregue até o final do semestre |
+|02| Não pode ser desenvolvido um módulo de backend        |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
@@ -341,9 +341,10 @@ Além disso, por meio do cabeçalho, o usuário tem a possibilidade de criar con
 <br>
 Tela – Login
 <br>A tela de Login é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Login” no cabeçalho. Nesta tela, é possível que o usuário acesse sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.<br>
-![Página Inicial](images/login.png)
 <br>
-<br>
+
+![Página Inicial](images/imagem login) 
+
 Tela – Criar conta
 <br>A tela de Criação de Conta é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o botão “Crie sua conta grátis” no cabeçalho. Nesta tela, é possível que o usuário crie sua conta na plataforma. Na sequência, a tela é fechada voltando para o ambiente anterior.<br>
 <br>![Página Criar conta](images/createacc.png) <br>
@@ -420,7 +421,7 @@ Durante todo o progresso tentamos sempre colocar como referência a pesquisa que
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+PEDRO HOSKEN: Concepção, apresentação, 
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
