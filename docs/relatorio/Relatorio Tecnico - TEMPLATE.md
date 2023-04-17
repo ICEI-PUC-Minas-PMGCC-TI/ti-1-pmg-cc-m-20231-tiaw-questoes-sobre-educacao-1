@@ -314,36 +314,26 @@ Usamos o editor de códigos para criar nossas estruturas de wireframe. Utilizamo
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto será feito na ferramenta de gerenciamento de projetos chamada github, e para evitar códigos conflitantes mesmo com diversas features sendo adicionadas ao mesmo tempo, o projeto seguirá um workflow de "Develop Branch", conforme a imagem:
 
-> O projeto será realizado no gitHub.
-> Para o gerenciamento das versões, em cada problema encontrado iremos vai criar um branch de bugfix.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+![Develop Branch](images/developBranch.png)
+
+O projeto adota a seguinte convenção para branches:
+A branch principal, a *master* conterá o conteúdo de entrega preparada. Quando o time fizer uma nova entrega para ser testada pelo product owner e o cliente, ela será feita la 
+A branch *develop* terá a versão com as features mais recentemente adicionadas, e será onde branches de *features*, onde os integrantes irão programar separadamente adições distintas no código, serão mescladas. 
+A branch *develop* entrará em um processo de revisão depois da adição das features desejadas para a nova versão, e caso ela seja estável, será mesclada com a branch *master*. Caso ela não seja, ela mesclara com a *master* e seguirá como um branch *develop* até que os problemas de instabilidade sejam resolvidos. 
+
+O projeto adota a seguinte convenção para as tags:
+- *testing* - A branch está sendo testada antes de ser enviar um pull request
+- *bugfix* - A branch tem um bug que precisa de ser resolvido
+- *enhancement* - A branch precisa de melhorar alguma sua funcionalidade
+- *feature* - A branch tem features pendentes a serem puxadas
+
+O projeto adota a seguinte convenção para a nomenclatura das versões:
+- A primeira versão de uma branch nova será 1.0.0
+- Mudanças muito pequenas como a correção ortográfica do código incrementam o último decimal (x. x. x+1)
+- Mudanças mais significativas como bugfixes e novas feature incrementam a versão no decimal do meio (x. x+1. x)
+- Mudanças muito significativas como o lançamento de uma novo produto teste para o cliente incrementam o primeiro decimal (x+1. x. x)
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
