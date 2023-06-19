@@ -310,6 +310,9 @@ header {
         justify-content: space-between;
         align-items: center;
 }
+.footer p{
+        color: white ;
+}
 
 .footer li {
         padding: 10px;
