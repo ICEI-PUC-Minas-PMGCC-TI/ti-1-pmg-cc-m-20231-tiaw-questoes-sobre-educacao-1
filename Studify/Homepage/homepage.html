@@ -8,6 +8,7 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <script src="https://kit.fontawesome.com/a33a8d6d19.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/homepage.css">
+        <link rel="stylesheet" href="assets/modal.css">
         <title>Studify</title>
 </head>
 
@@ -21,10 +22,10 @@
                         <a href="#Conteudos">Conteúdo</a>
                 </nav>
                 <div class="button-login">
-                       <a href="..Login/login.html"><button oneclick="login()" class="login">Entrar</button></a> 
-                       <a href="..CriarConta/criarConta.html"><button oneclick="create()" class="create">Crie sua conta grátis</button></a> 
-                       <a href="../Perfil/perfil.html"><button oneclick="my_account()" class="my_account" id="myAccountButton">Minha conta</button>
-                       </a> 
+                        <a href="..Login/login.html"><button oneclick="login()" class="login">Entrar</button></a>
+                        <a href="..CriarConta/criarConta.html"><button oneclick="create()" class="create">Crie sua conta
+                                        grátis</button></a>
+                        <button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
                 </div>
         </header>
 
@@ -40,7 +41,7 @@
         <div class="mockup"><img src="img-homepage/Mockup.png" alt=""></div>
 
         <section class="disciplinas">
-                <p>Disciplinas</p>        
+                <p>Disciplinas</p>
                 <div class="grid-carousel">
                         <button class="left">❮</button>
                         <div class="grid-carousel__slide"><a href="#1">Portugues</a></div>
@@ -50,7 +51,7 @@
                         <div class="grid-carousel__slide"><a href="#5">Fisica</a></div>
                         <button class="right">❯</button>
                 </div>
-                
+
 
         </section>
 
@@ -102,10 +103,22 @@
                         </div>
 
                 </div>
-
-
-
         </footer>
+
+        <!-- Modal -->
+        <div id="myAccountModal" class="modal">
+                <div class="modal-content">
+                        <h1>Minha Conta</h1>
+                        <img src="img-perfil/pe.png" alt="Imagem do perfil">
+                        <div class="info">
+                        <p><strong>Nome:</strong> <span id="name"></span></p>
+                        <p><strong>Usuário:</strong> <span id="username"></span></p>
+                        <p><strong>Email:</strong> <span id="email"></span></p>
+                        <button onclick="logout()">Sair</button>
+                        </div>
+                </div>
+        </div>
+
         <script src="assets/carrosel.js"></script>
         <script src="assets/newletter.js"></script>
         <script src="assets/script.js"></script>

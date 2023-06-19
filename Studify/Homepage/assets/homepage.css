@@ -40,6 +40,8 @@ header {
         border-radius: 5px;
         font-family: 'Lato', sans-serif;
         font-size: 1.2rem;
+        cursor: pointer;
+
 }
 
 .create {
@@ -51,6 +53,8 @@ header {
         border-radius: 5px;
         font-family: 'Lato', sans-serif;
         font-size: 1.2rem;
+        cursor: pointer;
+
 }
 .my_account{
         background-color: #774CED;
@@ -61,6 +65,8 @@ header {
         border-radius: 5px;
         font-family: 'Lato', sans-serif;
         font-size: 1.2rem;
+        cursor: pointer;
+
 }
 
 .menu a {
@@ -129,6 +135,7 @@ header {
         color: white;
         font-family: 'Lato', sans-serif;
         font-size: 1rem;
+        cursor: pointer;
 }
 
 .busca {
