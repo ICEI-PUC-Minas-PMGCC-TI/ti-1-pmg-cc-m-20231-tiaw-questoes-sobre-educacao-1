@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/perfil.css">
+  <title>Perfil do Usuário</title>
+</head>
+
+<body>
+  <div class="profile-card">
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h1>Minha Conta</h1>
+        <img src="img-perfil/pe.png" alt="Imagem do perfil">
+        <p><strong>Nome:</strong> <span id="name"></span></p>
+        <p><strong>Usuário:</strong> <span id="username"></span></p>
+        <p><strong>Email:</strong> <span id="email"></span></p>
+        <button onclick="logout()">Sair</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Função para exibir o modal
+    function showModal() {
+      var modal = document.getElementById('modal');
+      modal.style.display = 'block';
+    }
+
+    // Função para fechar o modal
+    function closeModal() {
+      var modal = document.getElementById('modal');
+      modal.style.display = 'none';
+    }
+
+    // Função para fazer logout
+    function logout() {
+      // Aqui você pode adicionar a lógica para realizar o logout, como fazer uma requisição ao servidor ou limpar os dados do localStorage
+      alert("Logout realizado com sucesso!");
+      // Redirecionar para a página de login
+      window.location.href = "login.html";
+    }
+
+    // Event listener para exibir o modal quando o perfil for clicado
+    var profileCard = document.querySelector('.profile-card');
+    profileCard.addEventListener('click', showModal);
+
+    // Recuperar os dados do login
+    var loginInfo = localStorage.getItem("loginInfo");
+
+    // Verificar se os dados foram encontrados
+    if (loginInfo) {
+      // Converter os dados de volta para um objeto JavaScript
+      var loginData = JSON.parse(loginInfo);
+
+      // Exibir as informações na página do usuário
+      document.getElementById("name").textContent = loginData.name;
+      document.getElementById("username").textContent = loginData.username;
+      document.getElementById("email").textContent = loginData.email;
+    } else {
+      // Caso os dados não sejam encontrados, tratar o caso adequadamente
+      console.log("Dados de login não encontrados no localStorage.");
+    }
+  </script>
+</body>
+
+</html>
