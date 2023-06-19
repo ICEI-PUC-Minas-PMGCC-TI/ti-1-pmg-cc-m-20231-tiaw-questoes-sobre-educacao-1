@@ -20,7 +20,7 @@ header {
 }
 
 .logo img {
-        width: 180px;
+        width: 15rem;
         padding-right: 80px;
 }
 
@@ -39,6 +39,7 @@ header {
         color: #3E20DC;
         border-radius: 5px;
         font-family: 'Lato', sans-serif;
+        font-size: 1.2rem;
 }
 
 .create {
@@ -49,6 +50,7 @@ header {
         color: white;
         border-radius: 5px;
         font-family: 'Lato', sans-serif;
+        font-size: 1.2rem;
 }
 
 .menu a {
@@ -56,7 +58,7 @@ header {
         text-decoration: none;
         color: #3E20DC;
         font-family: 'Lato', sans-serif;
-        font-size: 18px;
+        font-size: 1.5rem;
 }
 
 .l-body {
@@ -91,7 +93,7 @@ header {
         background-color: #C8A3FF;
         border: none;
         border-radius: 5px;
-        width: 244px;
+        width: 310px;
         height: 32px;
         font-family: 'Lato', sans-serif;
 }
@@ -104,7 +106,7 @@ header {
         outline: none;
         border: none;
         height: 32px;
-        width: 162px;
+        width: 227px;
 }
 
 #btnBusca {
@@ -116,13 +118,14 @@ header {
         background: #774CED;
         color: white;
         font-family: 'Lato', sans-serif;
+        font-size: 1rem;
 }
 
 .busca {
         position: relative;
         float: right;
         right: 65px;
-        top: -335px;
+        top: -305px;
         padding: 2px;
 }
 
@@ -200,7 +203,7 @@ header {
         position: absolute;
         transform: translateY(-50%);
         align-items: center;
-        top: 126%;
+        
 }
 
 .right {
