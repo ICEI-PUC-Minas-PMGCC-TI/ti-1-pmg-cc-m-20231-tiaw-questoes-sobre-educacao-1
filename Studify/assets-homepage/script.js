@@ -57,20 +57,7 @@ function hideMyAccountButton() {
       }
       
       // Verificar se o usuário está logado ou deslogado e ocultar os botões apropriados
-      function checkUserStatus() {
-        var isLoggedIn = false; // Por padrão, o usuário não está logado
-      
-        // Verifica se há um item "isLoggedIn" no localStorage
-        if (localStorage.getItem("isLoggedIn") === "true") {
-          isLoggedIn = true;
-        }
-      
-        if (isLoggedIn) {
-          hideLoginCreateButtons();
-        } else {
-          hideMyAccountButton();
-        }
-      }
+  
       
       window.addEventListener("load", checkUserStatus);
       

@@ -1,4 +1,4 @@
-.infor h1, p{
+.info h1, p{
   font-family: lato;
   color: #774CED;
 }
@@ -38,6 +38,8 @@ h1{
 
 .modal-content h1 {
   margin-bottom: 20px;
+  font-family: lato;
+  color: #774CED;
 }
 
 .modal-content img {
