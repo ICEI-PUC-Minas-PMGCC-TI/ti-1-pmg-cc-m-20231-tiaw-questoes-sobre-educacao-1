@@ -1,0 +1,66 @@
+body {
+    font: normal 15pt Arial;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+}
+.topo {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.filtro {
+    background-color: #969FAA;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#cabeçalhofiltro{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color:rgba(227, 162, 211, 0.552);
+    border-radius: 10px;
+}
+
+.opcoes {
+    text-align: center;
+}
+
+#botaoPesquisar {
+    background-color: rgb(227, 162, 211);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 300px; /* Aumenta a largura do botão */
+    border: 2px solid rgb(0, 0, 0); /* Modifica a borda do botão */
+  }
+  
+
+  select{
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+  }
