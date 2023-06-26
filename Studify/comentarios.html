@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/a33a8d6d19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets-comentarios/comentarios.css">
+    <title>Studify</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="img-homepage/logo.png" alt=""></div>
+        <nav class="menu">
+            <a href="#Exercicios">Exercícios</a>
+            <a href="#Disciplinas">Disciplinas</a>
+            <a href="comentarios.html">Videos</a>
+            <a href="content.html">Conteúdo</a>
+        </nav>
+        <div class="button-login">
+            <button class="login">Entrar</button>
+            <button class="create">Crie sua conta grátis</button>
+        </div>
+    </header>
+
+    <div class="video">
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/I8q0S_XGwdg" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+    <section>
+        <div id="comentarios">
+            
+            <h3>Adicionar Comentário</h3>
+            <form id="formcomentario">
+              <input type="text" id="inputnome" placeholder="Seu nome" required><br>
+              <input type="text" id="inputcomentario" placeholder="Seu comentário" required></input><br>
+              <button type="submit">Enviar Comentário</button>
+            </form>
+
+            <h2>Comentários</h2>
+            <table id="tabelacomentario">
+              <thead>
+                <tr>
+                  <th>Autor</th>
+                  <th>Comentário</th>
+                  <th>Data</th>
+                </tr>
+              </thead>
+              <tbody id="listacomentario"></tbody>
+            </table>
+        
+          </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="coluna1">
+            <li>Home</li>
+            <li>About</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Contact us</li>
+        </div>
+        <div class="coluna2">
+            <li>Blog</li>
+            <li>Search</li>
+            <li>T & Cs</li>
+            <li>Privacy</li>
+            <li>Community</li>
+        </div>
+
+        <div class="newsletter">
+            <p>Get our newsletter</p>
+            <div class="email" id="divEmail">
+                <form id="newsletterForm">
+                    <input type="email" id="emailInput" placeholder="Digite seu email aqui..." required>
+                    <button type="submit" id="btnSub">Subscribe</button>
+                </form>
+            </div>
+            <div class="social-kit">
+                <i class="fa-brands fa-square-facebook" style="color: #c8a3ff;"></i>
+                <i class="fa-brands fa-square-instagram" style="color: #c8a3ff;"></i>
+                <i class="fa-brands fa-square-snapchat" style="color: #c8a3ff;"></i>
+                <i class="fa-brands fa-square-twitter" style="color: #c8a3ff;"></i>
+                <i class="fa-brands fa-square-youtube" style="color: #c8a3ff;"></i>
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+    <script src="assets-comentarios/comentarios.js"></script>
+    <script src="newletter.js"></script>
+
+</body>
+
+</html>
