@@ -56,7 +56,8 @@ header {
         cursor: pointer;
 
 }
-.my_account{
+
+.my_account {
         background-color: #774CED;
         border-style: none;
         padding: 10px 18px;
@@ -66,7 +67,6 @@ header {
         font-family: 'Lato', sans-serif;
         font-size: 1.2rem;
         cursor: pointer;
-
 }
 
 .menu a {
@@ -75,6 +75,17 @@ header {
         color: #3E20DC;
         font-family: 'Lato', sans-serif;
         font-size: 1.5rem;
+}
+
+.menu-button {
+        display: none;
+        padding: 6px 10px;
+        background: #774CED;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        color: #fff;
+        cursor: pointer;
 }
 
 .l-body {
@@ -89,14 +100,13 @@ header {
         max-width: 100%;
 }
 
-.mockup{
+.mockup {
         margin: 0px;
         padding: 0px;
 }
 
 .mockup img {
-        width: 100%;
-        max-width: 500px;
+        width: 500px;
         top: -260px;
         left: 150px;
         margin: 0;
@@ -169,22 +179,24 @@ header {
         display: grid;
         grid-auto-flow: column;
         gap: 10px;
-        overflow-x: auto; 
         align-items: center;
         padding-bottom: 300px;
-        
-      }
-      
-.grid-carousel__slide a{
+        place-items: center;
+        overflow-x: hidden;
+}
+
+.grid-carousel__slide a {
         text-decoration: none;
         color: white;
 }
 
 .grid-carousel__slide {
         display: grid;
+        text-align: center;
         place-items: center;
         max-width: 100%;
         height: 150px;
+        padding: 1rem 5rem;
 }
 
 .grid-carousel__slide:nth-of-type(1),
@@ -220,7 +232,7 @@ header {
         position: absolute;
         transform: translateY(-50%);
         align-items: center;
-        
+
 }
 
 .right {
@@ -251,7 +263,7 @@ header {
 .container a {
         display: block;
         background-color: #774CED;
-        padding:150px 100px;
+        padding: 150px 100px;
         text-decoration: none;
         text-align: center;
         font-family: 'Lato', sans-serif;
@@ -310,8 +322,9 @@ header {
         justify-content: space-between;
         align-items: center;
 }
-.footer p{
-        color: white ;
+
+.footer p {
+        color: white;
 }
 
 .footer li {
@@ -374,4 +387,141 @@ header {
 
 .social-kit i {
         margin-right: 20px;
+}
+
+@media (max-width: 1360px) {
+        .grid-carousel__slide {
+                flex: 0 0 calc(100% / 3);
+                max-width: calc(100% / 3);
+        }
+
+        .menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: #f2f2f2;
+                padding: 10px;
+        }
+
+        .menu-button {
+                display: block;
+        }
+        .login, .create, .my_account{
+                display: none;
+        }
+}
+
+@media (max-width: 1150px) {
+
+        .grid-carousel__slide {
+                flex: 0 0 50%;
+                max-width: 50%;
+        }
+
+        .container {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-areas:
+                        "tema1"
+                        "tema2"
+                        "tema3"
+                        "tema4"
+                        "tema5";
+        }
+        .menu-button {
+                display: block;
+        }
+        .login, .create, .my_account{
+                display: none;
+        }
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+        .grid-carousel__slide {
+                max-width: 70%;
+                padding: 1rem 4rem;
+        }
+
+        .grid-carousel {
+                max-width: 70%;
+        }
+
+        .mockup img {
+                width: 400px;
+                top: -200px;
+                left: 40px;
+                margin: 0;
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr;
+        }
+        .login, .create, .my_account{
+                display: none;
+        }
+        .menu-button {
+                display: block;
+        }
+}
+
+
+@media (max-width: 768px) {
+        .grid-carousel__slide {
+                flex: 0 0 100%;
+                max-width: 50%;
+                height: 80px;
+        }
+
+        .grid-carousel {
+                max-width: 50%;
+                overflow-y: hidden;
+                align-items: center;
+                padding-bottom: 100px;
+                gap: 0;
+        }
+
+        .grid-carousel a {
+                font-size: 20px;
+        }
+
+        .mockup img {
+                width: 300px;
+                top: -180px;
+                left: 40px;
+                margin: 0;
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr;
+        }
+
+        .coluna1,
+        .coluna2 {
+                display: none;
+        }
+
+        .left {
+                left: 15px;
+        }
+
+        .right {
+                right: 15px;
+        }
+        .login, .create, .my_account{
+                display: none;
+        }
+        .menu-button {
+                display: block;
+        }
+        .logo img{
+                width: 10rem;
+        }
+
+        .footer{
+                display: none;
+        }
 }

@@ -13,7 +13,7 @@ function logout() {
         // Aqui você pode adicionar a lógica para realizar o logout, como fazer uma requisição ao servidor ou limpar os dados do localStorage
         alert("Logout realizado com sucesso!");
         // Redirecionar para a página de login
-        window.location.href = "../Homepage/homepage.html";
+        window.location.href = "homepage.html";
 }
 // Recuperar os dados do login
 var loginInfo = localStorage.getItem("loginInfo");
@@ -55,9 +55,19 @@ function hideMyAccountButton() {
           createButton.style.display = "none";
         }
       }
-      
-      // Verificar se o usuário está logado ou deslogado e ocultar os botões apropriados
-  
-      
+
       window.addEventListener("load", checkUserStatus);
+
+      function toggleMenu() {
+        var menu = document.getElementById("navMenu");
+        menu.classList.toggle("open");
+      }
+      
+      function closeMenu() {
+        var menu = document.getElementById("navMenu");
+        menu.classList.remove("open");
+      }
+      
+      window.addEventListener("resize", closeMenu);
+      
       

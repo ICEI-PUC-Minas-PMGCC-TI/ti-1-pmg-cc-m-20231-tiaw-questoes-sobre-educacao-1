@@ -14,20 +14,22 @@
 
 <body>
         <header>
-                <div class="logo"><img src="img-homepage/logo.png" alt=""></div>
-                <nav class="menu">
-                        <a href="#Exercicios">Exercícios</a>
-                        <a href="#Disciplinas">Disciplinas</a>
-                        <a href="#Videos">Videos</a>
-                        <a href="#Conteudos">Conteúdo</a>
+                <div class="logo"><a href="homepage.html"><img src="img-homepage/logo.png" alt=""></a></div>
+                <nav class="menu" id="navMenu">
+                  <a href="#Exercicios">Exercícios</a>
+                  <a href="#Disciplinas">Disciplinas</a>
+                  <a href="#Videos">Videos</a>
+                  <a href="#Conteudos">Conteúdo</a>
                 </nav>
                 <div class="button-login">
-                        <a href="login.html"><button oneclick="login()" class="login">Entrar</button></a>
-                        <a href="criarConta.html"><button oneclick="create()" class="create">Crie sua conta
-                                        grátis</button></a>
-                        <button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
+                  <a href="login.html"><button onclick="login()" class="login">Entrar</button></a>
+                  <a href="criarConta.html"><button onclick="create()" class="create">Crie sua conta grátis</button></a>
+                  <button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
+                  <button onclick="toggleMenu()" class="menu-button" id="menuButton"><i class="fas fa-bars"></i></button>
+
                 </div>
-        </header>
+
+              </header>
 
         <section class="l-section l-section--slanted">
                 <div class="l-section__content"></div>
