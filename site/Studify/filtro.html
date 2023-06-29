@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FILTRO TI</title>
-  <link rel="stylesheet" href="assets-filtro/siteFiltragem.css">
+  <link rel="stylesheet" href="assets/css/siteFiltragem.css">
+  <link rel="stylesheet" href="assets/css/header.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -15,18 +16,29 @@
 
 
 </head>
+<header>
+  <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></div>
+  <nav class="menu" id="navMenu">
+    <a href="#Exercicios">Exercícios</a>
+    <a href="#Disciplinas">Disciplinas</a>
+    <a href="Studify/filtro.html">Videos</a>
+    <a href="Studify/content.html">Conteúdo</a>
+  </nav>
+  <div class="button-login">
+    <a href="login.html"><button onclick="login()" class="login">Entrar</button></a>
+    <a href="criarConta.html"><button onclick="create()" class="create">Crie sua conta grátis</button></a>
+    <button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
+    <button onclick="toggleMenu()" class="menu-button" id="menuButton"><i class="fas fa-bars"></i></button>
 
-<header class="topo">
-  <h1>FILTRO DO TI</h1>
-  <!--BUTTON FOR DISPLAYING / HIDING FILTER-->
+  </div>
+
+</header>
+
+<body>
   <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
     aria-expanded="false" aria-controls="collapseExample">
     Filtro
   </button>
-</header>
-
-<body>
-
   <!--FILTER OVERLAY-->
   <div class="collapse" id="collapseExample">
     <div class="container-fluid">
@@ -66,8 +78,8 @@
     </div>
 
   </article>
-  <script src="assets-filtro/lodash.js"></script>
-  <script src="assets-filtro/filtro.js"></script>
+  <script src="assets/js/lib/lodash.js"></script>
+  <script src="assets/js/filtro.js"></script>
 
 </body>
 
