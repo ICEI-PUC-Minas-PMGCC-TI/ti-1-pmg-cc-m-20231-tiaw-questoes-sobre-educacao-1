@@ -1,105 +1,3 @@
-body {
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
-}
-
-header {
-        background-color: white;
-        padding: 10px 45px;
-        top: 0;
-        left: 0;
-        position: fixed;
-        overflow: hidden;
-        align-items: center;
-        width: 100%;
-        z-index: 100;
-        display: flex;
-        justify-content: space-between;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.logo img {
-        width: 11rem;
-        padding-right: 80px;
-}
-
-.button-login {
-        align-items: center;
-        display: flex;
-        padding-right: 90px;
-}
-
-.login {
-        margin-left: 5px;
-        background-color: #C8A3FF;
-        border-style: none;
-        padding: 8px 18px;
-        margin-right: 20px;
-        color: #3E20DC;
-        border-radius: 5px;
-        font-family: 'Lato', sans-serif;
-        font-size: 1rem;
-        cursor: pointer;
-
-}
-
-.create {
-        background-color: #774CED;
-        border-style: none;
-        padding: 8px 18px;
-        margin-right: 20px;
-        color: white;
-        border-radius: 5px;
-        font-family: 'Lato', sans-serif;
-        font-size: 1rem;
-        cursor: pointer;
-
-}
-
-.my_account {
-        background-color: #774CED;
-        border-style: none;
-        padding: 8px 18px;
-        margin-right: 20px;
-        color: white;
-        border-radius: 5px;
-        font-family: 'Lato', sans-serif;
-        font-size: 1rem;
-        cursor: pointer;
-}
-
-.menu a {
-        padding: 0 20px;
-        text-decoration: none;
-        color: #3E20DC;
-        font-family: 'Lato', sans-serif;
-        font-size: 1.1rem;
-}
-
-.menu-button {
-        display: none;
-        padding: 6px 10px;
-        background: #774CED;
-        border: none;
-        border-radius: 5px;
-        font-size: 1.5rem;
-        color: #fff;
-        cursor: pointer;
-}
-
-.l-body {
-        margin: 0;
-        padding: 0;
-}
-
-.l-section {
-        transform: skewY(4deg);
-        background-color: #774CED;
-        padding: 220px;
-        max-width: 100%;
-}
-
 .mockup {
         margin: 0px;
         padding: 0px;
@@ -312,82 +210,6 @@ header {
         grid-area: tema5;
 }
 
-.footer {
-        padding: 35px 55px;
-        background-color: #5636AC;
-        font-family: 'Lato', sans-serif;
-        color: white;
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-}
-
-.footer p {
-        color: white;
-}
-
-.footer li {
-        padding: 10px;
-        max-width: 100%;
-        height: 20px;
-}
-
-.coluna1 {
-        width: 98px;
-}
-
-.coluna2 {
-        width: 105px;
-        margin-left: 80px;
-}
-
-.coluna1,
-.coluna2 {
-        justify-content: flex-start;
-}
-
-.newsletter {
-        margin-left: auto;
-}
-
-#emailInput {
-        background-color: rgb(200, 163, 255);
-        border: none;
-        border-radius: 5px;
-        width: 244px;
-        padding: 8px;
-        font-family: 'Lato', sans-serif;
-        padding-left: 10px;
-        outline: none;
-        border: none;
-}
-
-#btnSub {
-        border: none;
-        border-radius: 4px;
-        width: 90px;
-        padding: 8px;
-        background: #774CED;
-        color: white;
-        font-family: 'Lato', sans-serif;
-}
-
-.footer p {
-        margin: 0;
-        padding: 15px 0;
-        font-size: 15px;
-        font-family: 'Lato', sans-serif;
-}
-
-.social-kit {
-        font-size: 20px;
-        padding-top: 18px;
-}
-
-.social-kit i {
-        margin-right: 20px;
-}
 
 @media (max-width: 1360px) {
         .grid-carousel__slide {
@@ -395,22 +217,7 @@ header {
                 max-width: calc(100% / 3);
         }
 
-        .menu {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                background-color: #f2f2f2;
-                padding: 10px;
-        }
 
-        .menu-button {
-                display: block;
-        }
-        .login, .create, .my_account{
-                display: none;
-        }
 }
 
 @media (max-width: 1150px) {
@@ -430,12 +237,7 @@ header {
                         "tema4"
                         "tema5";
         }
-        .menu-button {
-                display: block;
-        }
-        .login, .create, .my_account{
-                display: none;
-        }
+
 }
 
 
@@ -460,12 +262,6 @@ header {
                 position: relative;
                 display: grid;
                 grid-template-columns: 1fr;
-        }
-        .login, .create, .my_account{
-                display: none;
-        }
-        .menu-button {
-                display: block;
         }
 }
 
@@ -499,11 +295,6 @@ header {
                 grid-template-columns: 1fr;
         }
 
-        .coluna1,
-        .coluna2 {
-                display: none;
-        }
-
         .left {
                 left: 15px;
         }
@@ -511,17 +302,5 @@ header {
         .right {
                 right: 15px;
         }
-        .login, .create, .my_account{
-                display: none;
-        }
-        .menu-button {
-                display: block;
-        }
-        .logo img{
-                width: 10rem;
-        }
 
-        .footer{
-                display: none;
-        }
 }

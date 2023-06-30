@@ -1,4 +1,4 @@
-let videoHtmlpath = "videos.html";
+///Database preparation
 let dbVideos = {};
 if (!localStorage.getItem("db_videos")) {
   dbVideos = [
@@ -28,35 +28,68 @@ else {
   console.log(Object.keys(dbVideos).length);
 }
 
+//Lista dos subtopicos por topico por matéria
+//Eu deixei a importancia por enquanto caso agnt decida voltar com a implementação dela
+const subtopicosPorTopico = {
+  'Matemática': {
+    'Álgebra': [
+      { subtopico: 'Função', importancia: 'ALTA' },
+      { subtopico: 'Inequação', importancia: 'MÉDIA' },
+      { subtopico: 'Polinômios', importancia: 'BAIXA' }
+    ],
+    'Geometria': [
+      { subtopico: 'Geometria Analítica', importancia: 'BAIXA' },
+      { subtopico: 'Geometria Espacial', importancia: 'MÉDIA' },
+      { subtopico: 'Geometria Plana', importancia: 'ALTA' }
+    ],
+    'Números': [
+      { subtopico: 'Porcentagem', importancia: 'ALTA' },
+      { subtopico: 'Logaritmos', importancia: 'BAIXA' },
+      { subtopico: 'Conjuntos', importancia: 'MÉDIA' }
+    ]
+  }
+};
+
+//Constants
+const videoHtmlpath = "videos.html";
+const maxAllowedVideos = 8;
+
 //Use of lodash lib for quick sorting
 dbVideos = _.sortBy(dbVideos, function (o) { return o.indicadorQualidade; }).reverse();
 
-console.log(dbVideos);
-
+///Get components
 const materiaSelect = document.getElementById('materiaSelect');
 const topicoSelect = document.getElementById('topicoSelect');
-//const importanciaSelect = document.getElementById('importanciaSelect');
 const subtopicoSelect = document.getElementById('subtopicoSelect');
 const botaoPesquisar = document.getElementById('botaoPesquisar');
-const amountVideos = 8;
 const divVideoDisplay = document.getElementById('recommendedVideos');
 
-materiaSelect.addEventListener('change', filtrar);
-topicoSelect.addEventListener('change', filtrar);
-//importanciaSelect.addEventListener('change', filtrar);
+//Conteudo do filtro (nome da materia, topico, subtopico escolhido). Função -> FilterButton
+let materiaSelecionada = materiaSelect.options[materiaSelect.selectedIndex].textContent;
+let topicoSelecionado = topicoSelect.options[topicoSelect.selectedIndex].textContent;
+let subtopicoSelecionado = subtopicoSelect.options[subtopicoSelect.selectedIndex].textContent;
+
+//Events
+materiaSelect.addEventListener('change', subtopicosSelection);
+topicoSelect.addEventListener('change', subtopicosSelection);
 botaoPesquisar.addEventListener('click', FilterButton);
 
-function SortByQuality() {
-  divVideoDisplay.innerHTML = "";
+function FilterButton() {
+  materiaSelecionada = materiaSelect.options[materiaSelect.selectedIndex].textContent;
+  topicoSelecionado = topicoSelect.options[topicoSelect.selectedIndex].textContent;
+  subtopicoSelecionado = subtopicoSelect.options[subtopicoSelect.selectedIndex].textContent;
+  displayFiltered();
+};
+
+function displayFiltered() {
+  divVideoDisplay.innerHTML = "";//reset filter
   var arr = dbVideos.filter(function (o) {
     return (o.materia === materiaSelecionada || materiaSelecionada === "Matéria") &&
       (o.topico === topicoSelecionado || topicoSelecionado === "Assunto") &&
-      //(o.dificuldade === dificuldadeSelecionada || dificuldadeSelecionada === "selecione um nível de importância") &&
       (o.subtopico === subtopicoSelecionado || subtopicoSelecionado === "Subtopicos");
   })
-  console.log(arr);
   length = arr.length;
-  if (length > amountVideos) length = amountVideos;
+  if (length > maxAllowedVideos) length = maxAllowedVideos;
   for (var i = 0; i < arr.length; i++) {
     divVideoDisplay.innerHTML += `
       <div class="card">
@@ -80,48 +113,8 @@ function SortByQuality() {
   }
 }
 
-let materiaSelecionada = materiaSelect.options[materiaSelect.selectedIndex].textContent;
-let topicoSelecionado = topicoSelect.options[topicoSelect.selectedIndex].textContent;
-//let dificuldadeSelecionada = importanciaSelect.options[importanciaSelect.selectedIndex].textContent;
-let subtopicoSelecionado = subtopicoSelect.options[subtopicoSelect.selectedIndex].textContent;
 
-function FilterButton() {
-  materiaSelecionada = materiaSelect.options[materiaSelect.selectedIndex].textContent;
-  topicoSelecionado = topicoSelect.options[topicoSelect.selectedIndex].textContent;
-  //dificuldadeSelecionada = importanciaSelect.options[importanciaSelect.selectedIndex].textContent;
-  subtopicoSelecionado = subtopicoSelect.options[subtopicoSelect.selectedIndex].textContent;
-
-  //let mensagem = `Você pesquisou a matéria ${materiaSelecionada}, tópico ${topicoSelecionado}, subtópico ${subtopicoSelecionado}.`;
-  //alert(mensagem);
-
-  SortByQuality();
-
-};
-//----------------------------------------------------------------------
-///FILTRO
-
-const subtopicosPorTopico = {
-  'Matemática': {
-    'Álgebra': [
-      { subtopico: 'Função', importancia: 'ALTA' },
-      { subtopico: 'Inequação', importancia: 'MÉDIA' },
-      { subtopico: 'Polinômios', importancia: 'BAIXA' }
-    ],
-    'Geometria': [
-      { subtopico: 'Geometria Analítica', importancia: 'BAIXA' },
-      { subtopico: 'Geometria Espacial', importancia: 'MÉDIA' },
-      { subtopico: 'Geometria Plana', importancia: 'ALTA' }
-    ],
-    'Números': [
-      { subtopico: 'Porcentagem', importancia: 'ALTA' },
-      { subtopico: 'Logaritmos', importancia: 'BAIXA' },
-      { subtopico: 'Conjuntos', importancia: 'MÉDIA' }
-    ]
-  }
-};
-
-
-function filtrar() {
+function subtopicosSelection() {
   //Adicionar valores para subtopicos
   //Se a matéria não for selecionada ele será nulo
   //Caso contrário ele será todas caso o topico seja 'TODAS' ou o topico escolhido
@@ -132,8 +125,6 @@ function filtrar() {
 
   subtopicoSelect.innerHTML = ''; //limpar o html antes de revisar o filtro novamente
 
-
-
   let subtopicosObject = [];
   let found = false;
   for (const materia in subtopicosPorTopico) { //Checar para cada matéria se possui os topicos
@@ -142,14 +133,10 @@ function filtrar() {
       subtopicosObject = subtopicosPorTopico[materia][topicoSelecionado];
       break;
       }
-    
-    
   }
-  console.log(found);
 
   let trigger = false
   if (materiaSelecionada === '1' && found) {
-
     for (let i = 0; i < subtopicosObject.length; i++) {
       const subtopico = subtopicosObject[i];
       const subtopicoOption = document.createElement('option');
@@ -158,9 +145,9 @@ function filtrar() {
       subtopicoSelect.appendChild(subtopicoOption);
       trigger = true;
 
-
     }
   }
+  
   if (trigger == false) {
     const subtopicoOption = document.createElement('option');
     subtopicoOption.textContent = 'selecione um subtópico';
@@ -169,9 +156,8 @@ function filtrar() {
   }
 }
 
-//Avisar qual seleção foi feita
 
-SortByQuality();
+displayFiltered();
 
 
 

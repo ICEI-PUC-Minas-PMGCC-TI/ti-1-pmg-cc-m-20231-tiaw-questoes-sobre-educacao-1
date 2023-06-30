@@ -5,31 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="img-homepage/favicon.ico" />
+    <title>Revolução Francesa | Resumo do conteúdo</title>
+
+	<link rel="stylesheet" href="assets/css/global/header.css"> <!--css para o header-->
+	<link rel="stylesheet" href="assets/css/global/footer.css"> <!--css para o footer-->
+	<link rel="stylesheet" href="assets/css/global/modalLogin.css"> <!--css para o modal do login-->
+	<script src="assets/js/newsletter.js"></script> <!--js newsletter-->
+
+    <!--LINKS EXTERNOS PARA HEADER, FOOTER E MAIS-->
+    <link rel="shortcut icon" href="assets/img/img-homepage/favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/a33a8d6d19.js" crossorigin="anonymous"></script>
 
-    <title>Revolução Francesa | Resumo do conteúdo</title>
+    <link rel="stylesheet" href="assets/css/paginaConteudos.css">
 
 </head>
 
+<!--HEADER USADO POR TODOS OS DOCUMENTOS-->
+<header>
+    <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></div>
+    <nav class="menu" id="navMenu">
+        <a href="#Exercicios">Exercícios</a>
+        <a href="#Disciplinas">Disciplinas</a>
+        <a href="filtro.html">Videos</a>
+        <a href="content.html">Conteúdo</a>
+    </nav>
+    <div class="button-login">
+        <a href="login.html"><button onclick="login()" class="login">Entrar</button></a>
+        <a href="criarConta.html"><button onclick="create()" class="create">Crie sua conta grátis</button></a>
+        <button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
+        <button onclick="toggleMenu()" class="menu-button" id="menuButton"><i class="fas fa-bars"></i></button>
+    </div>
+</header>
+
 <body>
-
-    <header class="primary-header">
-        <div class="logo"><a href="../index.html"><img src="assets/img/logo.png" alt=""></a></div>
-        <nav class="menu">
-            <a href="#Exercicios">Exercícios</a>
-            <a href="#Disciplinas">Disciplinas</a>
-            <a href="videos.html">Videos</a>
-            <a href="content.html">Conteúdo</a>
-        </nav>
-        <div class="button-login">
-            <button class="login">Entrar</button>
-            <button class="create">Crie sua conta grátis</button>
-        </div>
-    </header>
-
-
     <div class="titulo">
         <h1 id="conteudo"> Revolução Francesa </h1>
     </div>
@@ -111,6 +120,8 @@
             <p class="veja-mais">Veja mais vídeos sobre o tema na sessão "Vídeos"</p>
         </div>
     </div>
+
+    <!--FOOTER USADO POR TODOS OS DOCUMENTOS-->
     <footer class="footer">
         <div class="coluna1">
             <li>Home</li>
@@ -126,7 +137,6 @@
             <li>Privacy</li>
             <li>Community</li>
         </div>
-
         <div class="newsletter">
             <p>Get our newsletter</p>
             <div class="email" id="divEmail">
@@ -141,14 +151,24 @@
                 <i class="fa-brands fa-square-snapchat" style="color: #c8a3ff;"></i>
                 <i class="fa-brands fa-square-twitter" style="color: #c8a3ff;"></i>
                 <i class="fa-brands fa-square-youtube" style="color: #c8a3ff;"></i>
-
             </div>
-
         </div>
-
-
-
     </footer>
+
+    <!-- MODAL USADO PELO HEADER PARA LOGIN -->
+    <div id="myAccountModal" class="modal">
+        <div class="modal-content">
+            <h1>Minha Conta</h1>
+            <img src="assets/img/img-perfil/default.jpeg" alt="Imagem do perfil">
+            <div class="info">
+                <p><strong>Nome:</strong> <span id="name"></span></p>
+                <p><strong>Usuário:</strong> <span id="username"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
+                <button onclick="logout()">Sair</button>
+            </div>
+        </div>
+    </div>
+
     <script src="assets/js/newletter.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
