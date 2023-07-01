@@ -1,0 +1,168 @@
+/* -- HEADER -- */
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+header {
+    background-color: white;
+    padding: 10px 45px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+    width: 11rem;
+    padding-right: 80px;
+}
+
+.button-login {
+    align-items: center;
+    display: flex;
+    padding-right: 90px;
+}
+
+.login {
+    margin-left: 5px;
+    background-color: #C8A3FF;
+    border-style: none;
+    padding: 8px 18px;
+    margin-right: 20px;
+    color: #3E20DC;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.create {
+    background-color: #774CED;
+    border-style: none;
+    padding: 8px 18px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.my_account {
+    background-color: #774CED;
+    border-style: none;
+    padding: 8px 18px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.menu a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #3E20DC;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+}
+
+.menu-button {
+    display: none;
+    padding: 6px 10px;
+    background: #774CED;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.l-body {
+    margin: 0;
+    padding: 0;
+}
+
+.l-section {
+    transform: skewY(4deg);
+    background-color: #774CED;
+    padding: 220px;
+    max-width: 100%;
+}
+
+@media (max-width: 1360px) {
+    .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding: 10px;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .login,
+    .create,
+    .my_account {
+        display: none;
+    }
+}
+
+@media (max-width: 1150px) {
+    .menu-button {
+        display: block;
+    }
+
+    .login,
+    .create,
+    .my_account {
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .login,
+    .create,
+    .my_account {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .login,
+    .create,
+    .my_account {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .logo img {
+        width: 10rem;
+    }
+}

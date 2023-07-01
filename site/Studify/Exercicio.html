@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='assets/css/Exercicios.css' rel='stylesheet' type='text/css'>
+  <script src="assets/js/Exercicios.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<title>Studify</title>
+</head>
+<header>
+  <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></div>
+	<nav class="menu" id="navMenu">
+		<a href="#Exercicios">Exercícios</a>
+		<a href="#Disciplinas">Disciplinas</a>
+		<a href="filtro.html">Videos</a>
+		<a href="content.html">Conteúdo</a>
+	</nav>
+	<div class="button-login">
+		<a href="login.html"><button onclick="login()" class="login">Entrar</button></a>
+		<a href="criarConta.html"><button onclick="create()" class="create">Crie sua conta grátis</button></a>
+		<button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
+		<button onclick="toggleMenu()" class="menu-button" id="menuButton"><i class="fas fa-bars"></i></button>
+	</div>
+</header>
+<body>
+  <h1 class="Exercicios">
+    Exercícios
+  </h1>
+  <h2 class="enunciado">
+    1) Exercícios sobre polinômios
+  </h2>
+  <h3 class="questao">
+    Questão 1
+  </h3>
+  <p class="questao1">
+    A divisão do polinômio P(x) pelo polinômio D(x) = x² + 2x – 5 gera como quociente o polinômio Q(x) = 3x – 1 e o resto R(x) = 5x + 2. Então, o polinômio P(x) é:<br>
+    <br>
+    <br>
+    A) P(x) = 3x³ + 5x² - 12x + 5<br>
+    <br>
+    B) P(x) = x³ + 5x² - 17x + 5<br>
+    <br>
+    C) P(x) = 3x³ + 6x² - 15x + 7<br>
+    <br>
+    D) P(x) = 2x³ - 4x² + 12x + 7<br>
+    <br>
+    E) P(x) = 3x³ + 5x² - 12x + 7<br>
+    <br>
+    <div class="scrollButton">
+      <button id="scrollButton">Ver resposta</button>
+      <div id="resposta1"></div>
+    </div>
+    <div class="avaliacao">
+      Avalie a questão
+    </div>
+    <div class="estrelas">
+      <button class="estrela"><i class="fas fa-star"></i></button><span class="contador">0</span>
+      <button class="estrela"><i class="fas fa-star"></i></button><span class="contador">0</span>
+      <button class="estrela"><i class="fas fa-star"></i></button><span class="contador">0</span>
+      <button class="estrela"><i class="fas fa-star"></i></button><span class="contador">0</span>
+      <button class="estrela"><i class="fas fa-star"></i></button><span class="contador">0</span>
+    </div>
+    
+  
+  </p>
+  <h4 class="respostas">
+    Resposta da questão 1
+  </h4>
+  <p class="resposta1">
+    Alternativa E.<br>
+    <br>
+    <br>
+    Sabemos que:<br>
+    <br>
+    P(x) = D(x) ⋅ Q(x) + R(x)<br>
+    <br>
+    Logo, temos que:<br>
+    <br>
+    P(x) = (x² + 2x – 5)(3x – 1) + (5x + 2)<br>
+    <br>
+    P(x) = (3x³ + 6x² - 15x – x² – 2x + 5) + (5x + 2)<br>
+    <br>
+    P(x) = (3x³ + 5x² - 17x + 5) + (5x + 2)<br>
+    <br>
+    P(x) = 3x³ + 5x² - 12x + 7<br>
+    <br>
+  </p>
+</body>
+<footer class="footer">
+  <div class="coluna1">
+    <li>Home</li>
+    <li>About</li>
+    <li>Features</li>
+    <li>Pricing</li>
+    <li>Contact us</li>
+  </div>
+  <div class="coluna2">
+    <li>Blog</li>
+    <li>Search</li>
+    <li>T & Cs</li>
+    <li>Privacy</li>
+    <li>Community</li>
+  </div>
+  <div class="newsletter">
+    <p>Get our newsletter</p>
+    <div class="email" id="divEmail">
+      <form id="newsletterForm">
+        <input type="email" id="emailInput" placeholder="Digite seu email aqui..." required>
+        <button type="submit" id="btnSub">Subscribe</button>
+      </form>
+    </div>
+    <div class="social-kit">
+      <i class="fa-brands fa-square-facebook" style="color: #c8a3ff;"></i>
+      <i class="fa-brands fa-square-instagram" style="color: #c8a3ff;"></i>
+      <i class="fa-brands fa-square-snapchat" style="color: #c8a3ff;"></i>
+      <i class="fa-brands fa-square-twitter" style="color: #c8a3ff;"></i>
+      <i class="fa-brands fa-square-youtube" style="color: #c8a3ff;"></i>
+    </div>
+  </div>
+</footer>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Filtros</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body onload="listaFiltros()">
+    <h1>Listagem de Filtros</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="msg" class="col-sm-2 offset-sm-10 ">
+                <a href="index.html"><input type="button" class="btn btn-warning" id="btnClear" value="Filtro"></a>
+            </div>
+        </div>
+
+        <form id="form-filtro">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <select name="filtro_diciplina" id="filtro_diciplina" class="form-control">
+                        <option value="">Selecione a diciplina</option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Português">Português</option>
+                        <option value="Física">Física</option>
+                        <option value="Química">Química</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="História">História</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                    </select>
+                </div>
+                <div class="col-sm-8">
+                    <select name="filtro_relevancia" id="filtro_relevancia" class="form-control">
+                        <option value="">Selecione a relevância</option>
+                        <option value="Baixa">Baixa</option>
+                        <option value="Média">Média</option>
+                        <option value="Alta">Alta</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Diciplina</th>
+                            <th scope="col">Tema</th>
+                            <th scope="col">Relevância</th>
+                            <th scope="col">Sub-tópicos</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="table-filtros">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
