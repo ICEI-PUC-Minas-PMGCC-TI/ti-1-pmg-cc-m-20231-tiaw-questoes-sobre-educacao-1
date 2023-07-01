@@ -1,5 +1,15 @@
 
 
+body {
+  padding-top: 100px !important; /*prioridade sobre header*/
+}
+
+@media (min-width: 992px) {
+  .collapse {
+      display: block !important;
+  }
+}
+
 /* filter overlay */
 div.selection p {
   color: rgb(0, 0, 0);
@@ -62,6 +72,20 @@ div.selection p {
 
     
   }
+
+  /*cards*/
+  .containerr {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+  }
+  .containerr .btn-holder {
+    justify-content: flex-end;
+    display: flex;
+  }
+  .buttonIrVideo{
+    max-width: 40%;
+  }
   .card {
     margin: 2% 0;
     max-width: 70%;
@@ -69,6 +93,6 @@ div.selection p {
 
   @media (max-width: 992px){
     .card {
-      max-width: 90%;
+      max-width: 100%;
     }
   }

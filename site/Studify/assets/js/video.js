@@ -19,29 +19,25 @@ if (!localStorage.getItem("db_videos")) {
 
     ];
     localStorage.setItem("db_videos", JSON.stringify(dbVideos));
-    console.log(dbVideos);
+    //console.log(dbVideos);
 }
 else {
     dbVideos = JSON.parse(localStorage.getItem("db_videos"));
-    console.log(dbVideos);
-    console.log(Object.keys(dbVideos).length);
+    //console.log(dbVideos);
+    //console.log(Object.keys(dbVideos).length);
 }
 const videoIframe = document.getElementById("iframeYT")
 
-const queryString = window.location.search;
-const idVideo = queryString.substring(1); // Remove the leading "?" character
+const queryStringg = window.location.search;
+const idVideoo = queryStringg.substring(1); // Remove the leading "?" character
 
-
+videoIframe.src = ""
 for (const video of dbVideos) {
-    console.log(video.id);
+    //console.log(video.id);
     if (video.id === idVideo) {
         videoIframe.src = "https://www.youtube.com/embed/" + video.link;
         console.log(videoIframe.src);
         document.title = video.title;
         break;
-    }
-    else {
-        videoIframe.src = "";
-  
     }
 }

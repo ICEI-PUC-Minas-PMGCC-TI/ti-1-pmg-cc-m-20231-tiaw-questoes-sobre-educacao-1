@@ -1,3 +1,15 @@
+.l-body {
+        margin: 0;
+        padding: 0;
+}
+
+.l-section {
+        transform: skewY(4deg);
+        background-color: #774CED;
+        padding: 220px;
+        max-width: 100%;
+}
+
 .mockup {
         margin: 0px;
         padding: 0px;

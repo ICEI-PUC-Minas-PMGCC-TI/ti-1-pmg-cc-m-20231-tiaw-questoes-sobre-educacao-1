@@ -95,17 +95,7 @@ header .menu-button {
     cursor: pointer;
 }
 
-header .l-body {
-    margin: 0;
-    padding: 0;
-}
 
-header .l-section {
-    transform: skewY(4deg);
-    background-color: #774CED;
-    padding: 220px;
-    max-width: 100%;
-}
 
 
 header .login,
