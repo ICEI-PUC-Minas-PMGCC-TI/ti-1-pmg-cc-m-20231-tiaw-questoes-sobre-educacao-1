@@ -340,7 +340,7 @@ O projeto adota a seguinte convenção para a nomenclatura das versões:
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso projeto se baseia na problemática da falta de confiabilidade e organização de informações educacionais na internet. Visando isso, buscamos agrupar por meio de resumos, vídeos, exercícios,  uma grande parte de conteúdos para a otimização dessa busca cansativa. Assim, nosso site serve como uma grande central de informações, podendo ser de matérias tanto do Ensino Médio, quanto da própria faculdade.
 
 ## Tecnologias Utilizadas
 
@@ -365,8 +365,6 @@ Nosso grupo fez uso de algumas tecnologias que eram fundamentais para a criaçã
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 Ambiente mobile(responsividade).
 Teste geral do site(integração e funcionalidades).
 Teste de outras pessoas de fora(opinião sobre futuras atualizações e features).
@@ -381,6 +379,7 @@ Depois disso, mandamos nosso site pronto para amigos e conhecidos a fim de testa
 
 ## Ferramentas de Testes (Opcional)
 
+-----------------------------------
 
 ## Registros de Testes
 
@@ -392,12 +391,4 @@ Suma: nosso site ainda é apenas um começo, precisa de várias melhorias para s
 
 # Referências
 
-
-
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Sites educacionais (ex: BrasilEscola, Estudo.com, etc).
