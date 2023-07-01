@@ -1,0 +1,32 @@
+<header>
+	<div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></div>
+	<button onclick="toggleMenu()" class="menu-button" id="menuButton"><i class="fas fa-bars"></i></button>
+	<div class="collapse" id="navbarToggleExternalContent">
+		<nav class="menu" id="navMenu">
+			<a class="col-sm-3" href="Exercicio.html">Exercícios</a>
+			<a class="col-sm-3" href="#Disciplinas">Disciplinas</a>
+			<a class="col-sm-3" href="filtro.html">Videos</a>
+			<a class="col-sm-3" href="content.html">Conteúdo</a>
+		</nav>
+		<div class="button-login">
+			<!-- Not logged in -->
+			<a href="login.html">
+				<button onclick="login()" class="login">Entrar</button>
+			</a>
+			<a href="criarConta.html">
+				<button onclick="create()" class="create">Crie sua conta grátis</button>
+			</a>
+
+		</div>
+	
+	</div>
+	<nav class="navbar navbar-dark bg-dark">
+		<div class="container-fluid">
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		</div>
+	  </nav>
+	<!-- Collapsible content -->
+
+</header>

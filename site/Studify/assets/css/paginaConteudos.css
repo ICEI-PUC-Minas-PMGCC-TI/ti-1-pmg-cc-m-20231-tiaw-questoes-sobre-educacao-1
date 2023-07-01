@@ -1,9 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    height: 100%;
-}
+
 
 /*Começo do header*/ /*Header global em uso, comentei o header aqui*/
 /*
@@ -91,7 +86,6 @@ header {
     float: right;
     background-color: #C8A3FF;
     color: #3E20DC;
-    ;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -144,7 +138,6 @@ header {
 .titulo {
     background-color: #774CED;
     height: 130px;
-    margin-top: 81px;
 }
 
 #conteudo {

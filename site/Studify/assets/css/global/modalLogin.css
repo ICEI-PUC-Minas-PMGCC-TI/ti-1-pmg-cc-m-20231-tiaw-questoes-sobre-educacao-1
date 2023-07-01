@@ -1,17 +1,18 @@
-.info h1, p{
+.modal .info h1, 
+.modal p{
   font-family: lato;
   color: #774CED;
 }
-.info span{
+.modal .info span{
   color: black;
 }
-.info p{
+.modal .info p{
   text-align: start;
   margin: 0 2rem;
   border: 1px solid #5636ac;
   padding: 5px;
 }
-h1{
+.modal h1{
   font-size: 40px;
 }
 .modal {
@@ -26,7 +27,7 @@ h1{
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.modal-content {
+.modal .modal-content {
   background-color: #fefefe;
   margin: 6% auto;
   padding: 20px;
@@ -36,24 +37,24 @@ h1{
   text-align: center;
 }
 
-.modal-content h1 {
+.modal .modal-content h1 {
   margin-bottom: 20px;
   font-family: lato;
   color: #774CED;
 }
 
-.modal-content img {
+.modal .modal-content img {
   width: 200px;
   height: 200px;
   border-radius: 100%;
   margin-bottom: 20px;
 }
 
-.modal-content p {
+.modal .modal-content p {
   margin-bottom: 10px;
 }
 
-.modal-content button {
+.modal .modal-content button {
   padding: 10px 20px;
   background-color: #774CED;
   color: #fff;
@@ -62,6 +63,6 @@ h1{
   cursor: pointer;
 }
 
-.modal-content button:hover {
+.modal .modal-content button:hover {
   background-color: #5636AC;
 }

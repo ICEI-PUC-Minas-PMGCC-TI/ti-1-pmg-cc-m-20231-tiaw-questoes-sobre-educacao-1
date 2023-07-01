@@ -1,0 +1,3 @@
+Para melhor organização, esta pasta contém htmls que não possuem o cabeçalho ou footer globais
+
+Colocar o restante dos htmls embaixo

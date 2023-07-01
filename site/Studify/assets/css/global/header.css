@@ -1,10 +1,12 @@
-/* -- HEADER -- */
+/* -- DEFAULT BODY -- */
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 75px; /*Tamanho da navbar encontrado após usar js = 75px.*/
     max-width: 100%;
+    font-family: 'Lato', sans-serif;	
 }
 
+/* -- HEADER -- */
 header {
     background-color: white;
     padding: 10px 45px;
@@ -15,23 +17,27 @@ header {
     align-items: center;
     width: 100%;
     z-index: 100;
-    display: flex;
-    justify-content: space-between;
+
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.logo img {
+header .logo img, .mobileLogo img{
     width: 11rem;
-    padding-right: 80px;
+    margin-right: 10%;
+    
 }
-
-.button-login {
-    align-items: center;
+header .mobileLogo img{
+    display: none;
+}
+header .button-login {
+    align-items: right;
     display: flex;
-    padding-right: 90px;
+    
 }
 
-.login {
+
+
+header .login {
     margin-left: 5px;
     background-color: #C8A3FF;
     border-style: none;
@@ -45,7 +51,7 @@ header {
 
 }
 
-.create {
+header .create {
     background-color: #774CED;
     border-style: none;
     padding: 8px 18px;
@@ -58,7 +64,7 @@ header {
 
 }
 
-.my_account {
+header .my_account {
     background-color: #774CED;
     border-style: none;
     padding: 8px 18px;
@@ -70,15 +76,15 @@ header {
     cursor: pointer;
 }
 
-.menu a {
+header .menu a {
     padding: 0 20px;
     text-decoration: none;
-    color: #3E20DC;
+    color: #3E20DC !important;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
 }
 
-.menu-button {
+header .menu-button {
     display: none;
     padding: 6px 10px;
     background: #774CED;
@@ -89,80 +95,47 @@ header {
     cursor: pointer;
 }
 
-.l-body {
+header .l-body {
     margin: 0;
     padding: 0;
 }
 
-.l-section {
+header .l-section {
     transform: skewY(4deg);
     background-color: #774CED;
     padding: 220px;
     max-width: 100%;
 }
 
-@media (max-width: 1360px) {
-    .menu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #f2f2f2;
-        padding: 10px;
-    }
 
-    .menu-button {
-        display: block;
-    }
-
-    .login,
-    .create,
-    .my_account {
-        display: none;
-    }
+header .login,
+header .create,
+header .my_account {
+    white-space: nowrap;
 }
 
-@media (max-width: 1150px) {
-    .menu-button {
-        display: block;
-    }
+@media (max-width: 1200px) { /*bootstrap-md (for laptops) Higher than that is the non media css*/
+    /*Until 1200px the header works perfectly. However, it breaks before that (1040 px)*/
+    
+}
 
-    .login,
-    .create,
-    .my_account {
+@media (max-width: 1050px){
+     /*Before header breaks, collapse "entrar" e "criar conta" */
+     /*Dont affect the "minha conta"*/
+    
+}
+
+@media (max-width: 992px) { /*bootstrap-sm (for tables)*/
+    header .mobileLogo img{
+        display: inline-block;
+    }
+    header .logo img {
         display: none;
     }
 }
 
 
 
-
-@media (max-width: 1024px) {
-    .login,
-    .create,
-    .my_account {
-        display: none;
-    }
-
-    .menu-button {
-        display: block;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .login,
-    .create,
-    .my_account {
-        display: none;
-    }
-
-    .menu-button {
-        display: block;
-    }
-
-    .logo img {
-        width: 10rem;
-    }
+@media (max-width: 768px) { /*bootstrap-xm (for phones)*/
+    
 }

@@ -5,42 +5,70 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Seleção de vídeo</title>
+	<title>Title</title>
 
 	<link rel="stylesheet" href="assets/css/global/header.css"> <!--css para o header-->
 	<link rel="stylesheet" href="assets/css/global/footer.css"> <!--css para o footer-->
 	<link rel="stylesheet" href="assets/css/global/modalLogin.css"> <!--css para o modal do login-->
 	<script src="assets/js/newsletter.js"></script> <!--js newsletter-->
-	<script src="assets/js/modalLogin.js"></script> <!--js modal do login-->
-
+    <script src="assets/js/modalLogin.js"></script> <!--js modal do login-->
+	
 	<!--LINKS EXTERNOS PARA HEADER, FOOTER E MAIS-->
 	<link rel="shortcut icon" href="assets/img/img-homepage/favicon.ico" />
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<script src="https://kit.fontawesome.com/a33a8d6d19.js" crossorigin="anonymous"></script>
 
+	<!--BOOSTRAP USADO POR TODOS OS HTML: SEM ELE A LOGO FICA MUITO GRANDE APÓS REAJUSTE-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-	integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-	crossorigin="anonymous"></script>
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="assets/css/paginaFiltro.css">
 </head>
 
 <!--HEADER USADO POR TODOS OS DOCUMENTOS-->
 <header>
-	<div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></div>
-	<nav class="menu" id="navMenu">
-		<a href="#Exercicios">Exercícios</a>
-		<a href="#Disciplinas">Disciplinas</a>
-		<a href="filtro.html">Videos</a>
-		<a href="content.html">Conteúdo</a>
+	<nav class="navbar navbar-expand-lg navbar-text">
+		<!--Logo to only appear when on mobile-->
+		<div class="mobileLogo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></div>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+			aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo03">
+			<div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></div>
+			<div class="navbar-nav-center">
+				<ul class="navbar-nav">
+					<li class="nav-item menu">
+						<a href="Exercicio.html">Exercícios</a>
+					</li>
+					<li class="nav-item menu">
+						<a href="#Disciplinas">Disciplinas</a>
+					</li>
+					<li class="nav-item menu">
+						<a href="filtro.html">Videos</a>
+					</li>
+					<li class="nav-item menu">
+						<a href="content.html">Conteúdo</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="button-login">
+				<!-- Not logged in -->
+				<a href="nonUserHtmls/login.html">
+					<button onclick="login()" class="login">Entrar</button>
+				</a>
+				<a href="criarConta.html">
+					<button onclick="create()" class="create">Crie sua conta grátis</button>
+				</a>
+				<!-- Logged in (currently disabled until js function added)-->
+				<button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
+			</div>
+		</div>
 	</nav>
-	<div class="button-login">
-		<a href="login.html"><button onclick="login()" class="login">Entrar</button></a>
-		<a href="criarConta.html"><button onclick="create()" class="create">Crie sua conta grátis</button></a>
-		<button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
-		<button onclick="toggleMenu()" class="menu-button" id="menuButton"><i class="fas fa-bars"></i></button>
-	</div>
 </header>
 
 <body>
@@ -48,6 +76,9 @@
 	<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
 		aria-expanded="false" aria-controls="collapseExample">
 		Filtro
+		a
+		af
+		Qpg6aAZGJwFDMVNA
 	</button>
 	<!--FILTER OVERLAY-->
 	<div class="collapse" id="collapseExample">
