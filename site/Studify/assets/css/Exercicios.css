@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    width: 100; 
+   height: 200px;
+  
+}
+
+header {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 180px;
+    padding-right: 80px;
+}
+
+.button-login {
+    align-items: center;
+    display: flex;
+    padding-right: 90px;
+}
+
+.login {
+    margin-left: 5px;
+    background-color: #C8A3FF;
+    border-style: none;
+    padding: 10px 18px;
+    margin-right: 20px;
+    color: #3E20DC;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.create {
+    background-color: #774CED;
+    border-style: none;
+    padding: 10px 18px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.menu a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #3E20DC;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    padding: 35px 55px;
+    background-color: #5636AC;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer li {
+    padding: 15px;
+    max-width: 100%;
+    height: 20px;
+  
+    
+}
+
+.coluna1 {
+    width: 98px;
+}
+
+.coluna2 {
+    width: 105px;
+    margin-left: 80px;
+}
+
+.coluna1,
+.coluna2 {
+
+    justify-content: flex-start;
+}
+
+.newsletter {
+    margin-left: auto;
+}
+
+#emailInput{
+    background-color: rgb(200, 163, 255);
+    border-radius: 5px;
+    width: 244px;
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+
+#btnSub{
+    border: none;
+    border-radius: 4px;
+    width: 90px;
+    padding: 8px;
+    background: #774CED;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer p{
+    margin: 0;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.social-kit{
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+.social-kit i{
+    margin-right: 20px;
+}
+
+
+.Exercicios{
+  width: 100%; 
+  height: 100px;
+  background-color: #5636AC;
+  font-size: 40px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+
+}
+
+.enunciado{
+  width: 100%; 
+  height: 70px;
+  font-size: 25px;
+  padding-left: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  
+}
+
+.questao{
+  width: 100%; 
+  height: 40px;
+  font-size: 20px;
+  background-color: #5636AC;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  
+  
+}
+.questao1{
+  width: 100%; 
+  height: 500px;
+  font-size: 20px;
+  overflow-wrap: break-word;
+  position: relative;
+  padding-left: 30px;
+}
+#scrollButton{
+  position: absolute;
+  bottom: 15px;
+  right: 40px;
+  border: none;
+  height: 30px;
+  line-height: 20px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background: #5636AC;
+border-radius: 5px;
+}
+
+.avaliacao{
+  width:200px;
+  height: 30px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: #5636AC;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  
+ 
+}
+.estrelas{
+background-color:white;
+  border: none;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: 20px;
+  margin-left: 6px;
+}
+
+.estrela{
+  background-color: transparent;
+  border: none;
+}
+  .fas{
+    color: gold;
+  
+
+}
+
+.respostas{
+  width: 100%; 
+  height: 40px;
+  font-size: 20px;
+  background-color: #5636AC;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.resposta1{
+  width: 70%; 
+  height: 500px;
+  font-size: 20px;
+  overflow-wrap: break-word;
+  position: relative;
+  padding-left: 30px;
+  
+}
+
+#medianotas{
+  font-size: 20px;
+   padding-left: 30px;
+}
