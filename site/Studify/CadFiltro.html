@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Cadastro de Filtros</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body onload="listar()">
+  <h1>Cadastro de Filtros</h1>
+  <div class="container">
+    <div class="row">
+      <div id="msg" class="col-sm-10 offset-sm-1"></div>
+    </div>
+    <form id="form-filtros">
+      <div class="form-group row">
+        <div class="col-sm-4">
+          <label for="inputDiciplina">Diciplina(*)</label>
+          <input type="text" class="form-control" name="inputDiciplina" id="inputDiciplina" required
+            placeholder="Informe a diciplina" />
+        </div>
+        <div class="col-sm-8">
+          <label for="inputTema">Tema(*)</label>
+          <input type="text" class="form-control" name="inputTema" id="inputTema" required
+            placeholder="Informe o tema" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-5">
+          <label for="inputRelevancia">Relevância(*)</label>
+          <input type="text" class="form-control" name="inputRelevancia" id="inputRelevancia" required
+            placeholder="Informe a relevância" />
+        </div>
+        <div class="col-sm-7">
+          <label for="inputSubtopicos">Sub-tópicos(*)</label>
+          <input type="text" class="form-control" name="inputSubtopicos" id="inputSubtopicos" required
+            placeholder="Informe o sub-tópico" />
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-4">
+          <small>(*) Campos obrigatórios</small>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-12">
+          <input type="button" class="btn btn-success" id="btnInsert" value="Inserir" />
+          <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar" />
+          <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir" />
+          <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form" />
+          <a href="lista-filtros.html"><input type="button" class="btn btn-warning" id="btnLista"
+              value="Pesquisar Conteúdo" /></a>
+        </div>
+      </div>
+    </form>
+    <div class="row">
+      <div class="col-sm-12">
+        <table id="grid-contatos" class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Diciplina</th>
+              <th scope="col">Tema</th>
+              <th scope="col">Relevância</th>
+              <th scope="col">Sub-tópicos</th>
+            </tr>
+          </thead>
+          <tbody id="table-filtros">
+            <tr>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
