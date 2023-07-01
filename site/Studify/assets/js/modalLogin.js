@@ -15,8 +15,22 @@ function logout() {
   // Redirecionar para a página de login
   window.location.href = "index.html";
 }
+
+function exibeUsuarios() {
+
+  // Popula a tabela com os registros do banco de dados
+  let listaUsuarios = '';
+  for (i = 0; i < db_usuarios.usuarios.length; i++) {
+    let usuario = db_usuarios.usuarios[i];
+    listaUsuarios += `<tr><td scope="row">${usuario.nome}</td><td>${usuario.login}</td><td>${usuario.email}</td></tr>`;
+  }
+
+  // Substitui as linhas do corpo da tabela
+  document.getElementById("table-usuarios").innerHTML = listaUsuarios
+
+}
 // Recuperar os dados do login
-var loginInfo = localStorage.getItem("loginInfo");
+var loginInfo = localStorage.getItem("db_usuarios");
 
 // Verificar se os dados foram encontrados
 if (loginInfo) {
@@ -24,8 +38,8 @@ if (loginInfo) {
   var loginData = JSON.parse(loginInfo);
 
   // Exibir as informações na página do usuário
-  document.getElementById("name").textContent = loginData.name;
-  document.getElementById("username").textContent = loginData.username;
+  document.getElementById("name").textContent = loginData.nome;
+  document.getElementById("username").textContent = loginData.login;
   document.getElementById("email").textContent = loginData.email;
 
   // Adicione mais elementos HTML conforme necessário
