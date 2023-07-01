@@ -1,9 +1,9 @@
 
 
 
-
-
-
+.btonRoxo{
+  background-color: #8064A2 !important;
+}
 .my_account {
   background-color: #774CED;
   border-style: none;
@@ -19,13 +19,7 @@
 
 
 
-.video{
-    
-    padding: 50px;
-    text-align: center;
-    background-color: #774CED;
-    max-width: 100%;
-}
+
 
 /* Estilos para a seção de comentários */
 section{
@@ -33,10 +27,11 @@ section{
 }
 
 #comentarios {
-    margin: 30px 100px;
-    max-width: 100%;
-    margin-bottom: 50px;
-    background-color: #f5f5f5; /* Nova propriedade */
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 100%;
+  margin-bottom: 50px;
+  background-color: #f5f5f5; /* Nova propriedade */
 }
 
   
@@ -50,7 +45,6 @@ section{
   h3{
     background-color: #774CED;
     text-align: center;
-    padding: 10px;
     color: white;
     font-size: 1.5em;
   }
@@ -126,4 +120,10 @@ section{
 
 
 
-
+  @media (max-width: 992px) { /*bootstrap-sm (for tables)*/
+    #comentarios {
+      margin-left:0;
+      margin-right:0;
+ 
+    }
+}

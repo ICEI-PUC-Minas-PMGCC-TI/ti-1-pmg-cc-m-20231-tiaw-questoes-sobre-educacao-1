@@ -72,7 +72,6 @@ for (var i = 0; i < db_videos.length; i++) {
     //console.log(videoIframe.src);
     break;
   }
-
 }
 
 if (dbIndex > -1){

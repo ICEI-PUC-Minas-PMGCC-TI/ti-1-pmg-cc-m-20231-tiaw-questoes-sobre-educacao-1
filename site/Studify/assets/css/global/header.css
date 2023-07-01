@@ -122,10 +122,19 @@ header .my_account {
     header .logo img {
         display: none;
     }
+ 
 }
 
 
 
 @media (max-width: 768px) { /*bootstrap-xm (for phones)*/
-    
+
+}
+
+@media (max-width: 500px) { /*For the eventuality that a impossible sized device bugs the whole header*/
+    header .logo img, .mobileLogo img{
+        width: 8rem;
+        margin-right: 10%;
+        
+    }
 }
