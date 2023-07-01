@@ -340,20 +340,12 @@ O projeto adota a seguinte convenção para a nomenclatura das versões:
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso projeto se baseia na problemática da falta de confiabilidade e organização de informações educacionais na internet. Visando isso, buscamos agrupar por meio de resumos, vídeos, exercícios,  uma grande parte de conteúdos para a otimização dessa busca cansativa. Assim, nosso site serve como uma grande central de informações, podendo ser de matérias tanto do Ensino Médio, quanto da própria faculdade.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso grupo fez uso de algumas tecnologias que eram fundamentais para a criação do trabalho. Entre elas estão o git, na qual usamos para integrar todas as partes do nosso trabalho, nos ajudou a organizar todo nosso sistema para uma eficácia maior na hora de trabalharmos. Usamos o Vs Code, que foi o principal método de progamação do grupo, foi utilizado com a participação do git para fazer todas as mudanças feitas. E por fim, usamos dentro das funcionalidades do nosso site, o YouTube, que é de suma importância para a apresentação das informações que nosso site busca agrupar, ele é uma grande ferramenta que faz nosso site ter um diferencial em quesitos de agrupamento de soluções nos estudos.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
 > Inclua os diagramas de User Flow, esboços criados pelo grupo
 > (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
 > item textualmente comentando e complementando o que está apresentado
@@ -373,53 +365,30 @@ O projeto adota a seguinte convenção para a nomenclatura das versões:
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Ambiente mobile(responsividade).
+Teste geral do site(integração e funcionalidades).
+Teste de outras pessoas de fora(opinião sobre futuras atualizações e features).
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Primeiro fomos para o âmbito móvel, testamos todas nossas páginas para ver se eram adaptáveis á esse ambiente, mudamos alguns detalhes para ficar mais fácil a interação.
+Testamos também algumas funcionalidades extras não escritas nos nossos requisitos, como a mudança na home dependendo da sua indentidade como administrador ou como usuário.
+No fim, conferimos se todas as partes realizadas individualmente foram bem integradas para a entrega do projeto final.
+Depois disso, mandamos nosso site pronto para amigos e conhecidos a fim de testar se suas funcionalidades estavam todas em ordem e se o próprio conteúdo era satisfatório.
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
 ## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+-----------------------------------
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1- Sucesso, conseguimos resolver o problema da responsividade.
+2- Sucesso, tudo foi integrado e não houve complicações.
+3- A maioria das opiniões vindas de fora eram de desconhecidos, para uma avaliação mais real sobre problemas e mudanças que deveriam ser implementadas.
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+Suma: nosso site ainda é apenas um começo, precisa de várias melhorias para ser um site utilizável futuramente com um pensamento de marketing, mas atualmente com as capacidades que temos, foi um completo e maravilhoso projeto.
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Sites educacionais (ex: BrasilEscola, Estudo.com, etc).
