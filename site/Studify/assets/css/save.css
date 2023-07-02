@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #774CED;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#linkpagina {
+   
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#titulo {
+   
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}

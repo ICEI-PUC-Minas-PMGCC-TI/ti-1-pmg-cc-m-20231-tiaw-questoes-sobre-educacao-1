@@ -35,12 +35,12 @@ function generateUUID() { // Public Domain/MIT
 
 
 // Dados de usuários para serem utilizados como carga inicial
-const dadosIniciais = {
-    usuarios: [
-        { "id": generateUUID (), "login": "admin", "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com"},
-        { "id": generateUUID (), "login": "user", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com"},
-    ]
-};
+//const dadosIniciais = {
+  //  usuarios: [
+  //      { "id": generateUUID (), "login": "admin", "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com"},
+  //      { "id": generateUUID (), "login": "user", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com"},
+ //   ]
+//};
 
 
 // Inicializa o usuarioCorrente e banco de dados de usuários da aplicação de Login
