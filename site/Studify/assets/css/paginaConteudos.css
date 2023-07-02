@@ -1,5 +1,10 @@
 
 
+body {
+    padding-top: 0 !important; /*Tamanho da navbar encontrado após usar js = 75px.*/
+   
+
+}
 /*Começo do header*/ /*Header global em uso, comentei o header aqui*/
 /*
 header {
