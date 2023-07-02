@@ -1,52 +1,48 @@
 function openModal() {
-  var modal = document.getElementById("myAccountModal");
   modal.style.display = "block";
 }
 window.onclick = function (event) {
-  var modal = document.getElementById("myAccountModal");
   if (event.target == modal) {
     modal.style.display = "none";
   }
 };
 
 function logout() {
+  usuarioCorrenteJSON = sessionStorage.getItem('usuarioCorrente');
+  if (usuarioCorrenteJSON){
+    sessionStorage.clear('usuarioCorrente')
+    alert("Logout realizado com sucesso!");
+    window.location.href = "index.html";
+  }
+  else alert("Usuario não logado");
   // Aqui você pode adicionar a lógica para realizar o logout, como fazer uma requisição ao servidor ou limpar os dados do localStorage
-  alert("Logout realizado com sucesso!");
-  // Redirecionar para a página de login
-  window.location.href = "index.html";
+  
 }
 
 function exibeUsuarios() {
-
+  if ((usuarioCorrenteJSON)){
+    modalEmail.textContent = usuarioCorrente.email;
+    modalName.textContent = usuarioCorrente.nome;
+    modalUsername.textContent = usuarioCorrente.login;
+  }
+  else  console.log("Dados de login não encontrados no localStorage.");
+  
+  /*
   // Popula a tabela com os registros do banco de dados
   let listaUsuarios = '';
   for (i = 0; i < db_usuarios.usuarios.length; i++) {
     let usuario = db_usuarios.usuarios[i];
     listaUsuarios += `<tr><td scope="row">${usuario.nome}</td><td>${usuario.login}</td><td>${usuario.email}</td></tr>`;
   }
+  */
 
   // Substitui as linhas do corpo da tabela
-  document.getElementById("table-usuarios").innerHTML = listaUsuarios
+  //document.getElementById("table-usuarios").innerHTML = listaUsuarios
 
 }
 // Recuperar os dados do login
-var loginInfo = localStorage.getItem("db_usuarios");
 
-// Verificar se os dados foram encontrados
-if (loginInfo) {
-  // Converter os dados de volta para um objeto JavaScript
-  var loginData = JSON.parse(loginInfo);
 
-  // Exibir as informações na página do usuário
-  document.getElementById("name").textContent = loginData.nome;
-  document.getElementById("username").textContent = loginData.login;
-  document.getElementById("email").textContent = loginData.email;
-
-  // Adicione mais elementos HTML conforme necessário
-} else {
-  // Caso os dados não sejam encontrados, tratar o caso adequadamente
-  console.log("Dados de login não encontrados no localStorage.");
-}
 // Função para esconder o botão de "Minha Conta" quando estiver deslogado
 function hideMyAccountButton() {
   var myAccountButton = document.querySelector("#myAccountButton");
@@ -57,6 +53,7 @@ function hideMyAccountButton() {
 }
 
 // Função para esconder os botões de "Login" e "Criar conta" quando estiver logado
+/*
 function hideLoginCreateButtons() {
   var loginButton = document.querySelector(".login");
   var createButton = document.querySelector(".create");
@@ -68,9 +65,9 @@ function hideLoginCreateButtons() {
   if (createButton) {
     createButton.style.display = "none";
   }
-}
+}*/
 
-window.addEventListener("load", checkUserStatus);
+//window.addEventListener("load", checkUserStatus); Comando não adicionado 
 
 function toggleMenu() {
   var menu = document.getElementById("navMenu");
@@ -82,5 +79,35 @@ function closeMenu() {
   menu.classList.remove("open");
 }
 
-window.addEventListener("resize", closeMenu);
 
+
+function initModal(){
+  
+  usuarioCorrenteJSON = sessionStorage.getItem('usuarioCorrente');
+  if (usuarioCorrenteJSON) {
+      usuarioCorrente = JSON.parse(usuarioCorrenteJSON);
+  }
+  exibeUsuarios()
+  headerDisplay()
+}
+var adminButton = document.getElementById("adminButton");
+var navCreateAccBtn = document.getElementById("navCreateAccBtn");
+var navLoginBtn = document.getElementById("navLoginBtn");
+var myAccountButton = document.getElementById("myAccountButton");
+var modal = document.getElementById("myAccountModal");
+var loginInfo = localStorage.getItem("db_usuarios");
+window.addEventListener("resize", closeMenu);
+var modalEmail = document.getElementById("modalEmail");
+var modalUsername = document.getElementById("modalUsername");
+var modalName = document.getElementById("modalName");
+var usuarioCorrente;
+function headerDisplay(){
+  adminButton.style.display = 'none';
+  if (usuarioCorrenteJSON){
+    navCreateAccBtn.style.display = 'none';
+    navLoginBtn.style.display = 'none';
+    if (usuarioCorrente.nome = 'admin') adminButton .style.display = 'inline';
+  }
+  else myAccountButton.style.display = 'none';
+}
+initModal();

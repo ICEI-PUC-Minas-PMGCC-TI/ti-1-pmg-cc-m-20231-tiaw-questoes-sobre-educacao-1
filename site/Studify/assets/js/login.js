@@ -1,8 +1,5 @@
-//
-//
 // Disciplina: Trabalho Interdisciplinar - Aplicações Web
 
-//
 // Código LoginApp utilizado como exemplo para alunos de primeiro período 
 
 
@@ -34,22 +31,26 @@ function generateUUID() { // Public Domain/MIT
 }
 
 
- //Dados de usuários para serem utilizados como carga inicial
+//Dados de usuários para serem utilizados como carga inicial
+
+
 const dadosIniciais = {
     usuarios: [
-        { "id": generateUUID(), "login": "admin", "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com" },
-        { "id": generateUUID(), "login": "user", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com" },
+        { "id": generateUUID(), "login": "admin", "saved": [], "liked": [], "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com" },
+        { "id": generateUUID(), "login": "user", "saved": [], "liked": [], "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com" },
     ]
 };
 
 
 // Inicializa o usuarioCorrente e banco de dados de usuários da aplicação de Login
 function initLoginApp() {
+
     // PARTE 1 - INICIALIZA USUARIOCORRENTE A PARTIR DE DADOS NO LOCAL STORAGE, CASO EXISTA
     usuarioCorrenteJSON = sessionStorage.getItem('usuarioCorrente');
     if (usuarioCorrenteJSON) {
         usuarioCorrente = JSON.parse(usuarioCorrenteJSON);
     }
+    else usuarioCorrente = {};
 
     // PARTE 2 - INICIALIZA BANCO DE DADOS DE USUÁRIOS
     // Obtem a string JSON com os dados de usuários a partir do localStorage
@@ -72,6 +73,12 @@ function initLoginApp() {
         // Converte a string JSON em objeto colocando no banco de dados baseado em JSON
         db_usuarios = JSON.parse(usuariosJSON);
     }
+    captcha = localStorage.getItem('captcha');
+    if (!captcha) {
+        localStorage.setItem('captcha', 6);
+    }
+    captchaNum = 6;
+    captchaLogin.disabled = true;
 };
 
 
@@ -82,13 +89,15 @@ function loginUser(login, senha) {
     // para localizar o usuário informado no formulario de login
     for (var i = 0; i < db_usuarios.usuarios.length; i++) {
         var usuario = db_usuarios.usuarios[i];
-
         // Se encontrou login, carrega usuário corrente e salva no Session Storage
         if (login == usuario.login && senha == usuario.senha) {
             usuarioCorrente.id = usuario.id;
             usuarioCorrente.login = usuario.login;
+            usuarioCorrente.username = usuario.username;
             usuarioCorrente.email = usuario.email;
             usuarioCorrente.nome = usuario.nome;
+            usuarioCorrente.liked = usuario.liked;
+            usuarioCorrente.saved = usuario.saved;
 
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
             sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
@@ -96,8 +105,16 @@ function loginUser(login, senha) {
             // Retorna true para usuário encontrado
             return true;
         }
+
+
     }
 
+
+    captchaNum--;
+    localStorage.setItem('captcha', captchaNum);
+    if (captchaNum <= 0) {
+        blockLogin();
+    }
     // Se chegou até aqui é por que não encontrou o usuário e retorna falso
     return false;
 }
@@ -113,7 +130,7 @@ function addUser(nome, login, senha, email) {
 
     // Cria um objeto de usuario para o novo usuario 
     let newId = generateUUID();
-    let usuario = { "id": newId, "login": login, "senha": senha, "nome": nome, "email": email };
+    let usuario = { "id": newId, "login": login, "saved": [], "liked": [], "senha": senha, "nome": nome, "email": email };
 
     // Inclui o novo usuario no banco de dados baseado em JSON
     db_usuarios.usuarios.push(usuario);
@@ -128,4 +145,30 @@ function setUserPass() {
 
 
 // Inicializa as estruturas utilizadas pelo LoginApp
+usuarioCorrenteJSON = sessionStorage.getItem('usuarioCorrente');
+usuarioCorrente = JSON.parse(usuarioCorrenteJSON);
+var submitLogin = document.getElementById("submitLogin");
+var captchaLogin = document.getElementById("captchaLogin");
+var captchaNum = 0;
+captchaLogin.addEventListener("click", captcha);
+console.log(usuarioCorrente);
+if (usuarioCorrenteJSON) {
+    console.log((usuarioCorrenteJSON));
+    console.log(usuarioCorrente.id);
+}
+
+
+
 initLoginApp();
+
+function blockLogin() {
+    submitLogin.disabled = true;
+    captchaLogin.disabled = false;
+
+}
+function captcha() {
+    submitLogin.disabled = false;
+    captchaLogin.disabled = true;
+    localStorage.setItem('captcha', 3);
+    captchaNum = 3;
+}

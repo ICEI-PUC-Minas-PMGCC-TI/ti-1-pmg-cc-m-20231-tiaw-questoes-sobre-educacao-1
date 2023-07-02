@@ -10,8 +10,6 @@
 	<link rel="stylesheet" href="assets/css/global/header.css"> <!--css para o header-->
 	<link rel="stylesheet" href="assets/css/global/footer.css"> <!--css para o footer-->
 	<link rel="stylesheet" href="assets/css/global/modalLogin.css"> <!--css para o modal do login-->
-	<script src="assets/js/newsletter.js"></script> <!--js newsletter-->
-	<script src="assets/js/modalLogin.js"></script> <!--js modal do login-->
 
 	<!--LINKS EXTERNOS PARA HEADER, FOOTER E MAIS-->
 	<link rel="shortcut icon" href="assets/img/img-homepage/favicon.ico" />
@@ -73,20 +71,22 @@
 			<div class="button-login">
 				<!-- Not logged in -->
 				<a href="login.html">
-					<button onclick="login()" class="login">Entrar</button>
+					<button onclick="login()" id = "navLoginBtn" class="login">Entrar</button>
 				</a>
 				<a href="login.html">
-					<button onclick="create()" class="create">Crie sua conta grátis</button>
+					<button onclick="create()"id = "navCreateAccBtn" class="create">Crie sua conta grátis</button>
 				</a>
-				<!-- Logged in (currently disabled until js function added)-->
-				<!--<button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>-->
+				<!-- Logged in-->
+				<button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
+				<!-- Admin-->
+				<button onclick="openModal()" class="my_account" id="adminButton">Admin</button>
 			</div>
 		</div>
 	</nav>
 </header>
 
-<body>
-
+<body>	
+	
 	<section class="l-section l-section--slanted">
 		<div class="l-section__content"></div>
 	</section>
@@ -168,14 +168,16 @@
 			<h1>Minha Conta</h1>
 			<img src="assets/img/img-perfil/default.jpeg" alt="Imagem do perfil">
 			<div class="info">
-				<p><strong>Nome:</strong> <span id="name"></span></p>
-				<p><strong>Usuário:</strong> <span id="username"></span></p>
-				<p><strong>Email:</strong> <span id="email"></span></p>
+				<p><strong>Nome:</strong> <span id="modalName"></span></p>
+				<p><strong>Usuário:</strong> <span id="modalUsername"></span></p>
+				<p><strong>Email:</strong> <span id="modalEmail"></span></p>
 				<button onclick="logout()">Sair</button>
 			</div>
 		</div>
 	</div>
-
+	<script src="assets/js/newsletter.js"></script> <!--js newsletter-->
+	<script src="assets/js/modalLogin.js"></script> <!--js modal do login-->
+	
 	<script src="assets/js/carrosel.js"></script>
 	<script src="assets/css/homepage.css"></script>
 

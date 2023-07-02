@@ -28,18 +28,22 @@
 								<input type="text" name="password" id="password" class="form-control">
 							</div>
 							<div class="form-group text-right">
-								<input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+								<input type="submit" name="submit" id = "submitLogin"class="btn btn-info btn-md" value="submit">
 							</div>
+							
 						</form>
 					</div>
 					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">Novo
 						usuario</button>
 					<button class="btn btn-info btn-md" onclick="window.location.href='index.html';">Pagina Inicial</button>
+					<button type="button" name="captcha" id="captchaLogin" class="btn btn-info btn-md">captcha</button>
 
 				</div>
+				
 			</div>
 		</div>
 	</div>
+	
 
 	<!-- Modal -->
 	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
@@ -64,6 +68,7 @@
 								<label for="nome" class="text-info">Nome</label><br>
 								<input type="text" name="txt_nome" id="txt_nome" class="form-control">
 							</div>
+
 							<div class="form-group">
 								<label for="email" class="text-info">Email</label><br>
 								<input type="text" name="txt_email" id="txt_email" class="form-control">
@@ -102,7 +107,7 @@
 			// Valida login e se estiver ok, redireciona para tela inicial da aplicação
 			resultadoLogin = loginUser(username, password);
 			if (resultadoLogin) {
-				window.location.href = "loginR.html";
+				window.location.href = "index.html";
 			}
 			else { // Se login falhou, avisa ao usuário
 				alert('Usuário ou senha incorretos');
@@ -135,7 +140,7 @@
 
 		// Associa a funçao processaFormLogin  formulário adicionado um manipulador do evento submit
 		document.getElementById('login-form').addEventListener('submit', processaFormLogin);
-
+		document.getElementById('login-form').addEventListener('submit', processaFormLogin);
 
 		// Associar salvamento ao botao
 		document.getElementById('btn_salvar').addEventListener('click', salvaLogin);        
