@@ -30,6 +30,7 @@ body .enunciado{
   font-size: 25px;
   font-weight: normal;
   margin:auto;
+  padding: 2%;
 }
 
 body .questao{
@@ -69,9 +70,8 @@ border-radius: 5px;
 
 .avaliacao{
   width:200px;
-  height: 30px;
+  height: fit-content;
   font-size: 18px;
-  font-family: 'Lato', sans-serif;
   padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -79,6 +79,7 @@ border-radius: 5px;
   color: white;
   border-radius: 5px;
   margin-left: 10px;
+  
   
  
 }

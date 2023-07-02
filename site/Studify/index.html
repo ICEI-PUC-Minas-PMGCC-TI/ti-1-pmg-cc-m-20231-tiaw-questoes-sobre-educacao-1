@@ -24,20 +24,7 @@
 		crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="assets/css/homepage.css">
-	<style>
-		/* Hide the collapse button on larger devices */
-		@media (min-width: 576px) {
-			.collapse-button {
-				display: none;
-			}
-		}
 
-		.navbar {
-			margin: 0;
-			padding: 0;
-
-		}
-	</style>
 </head>
 
 <!--HEADER USADO POR TODOS OS DOCUMENTOS-->
@@ -79,7 +66,10 @@
 				<!-- Logged in-->
 				<button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
 				<!-- Admin-->
-				<button onclick="openModal()" class="my_account" id="adminButton">Admin</button>
+				<a href="nonUserHtmls/CadFiltro.html">
+					<button class="my_account" id="adminButton">Admin</button>
+				</a>
+				
 			</div>
 		</div>
 	</nav>

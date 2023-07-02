@@ -101,12 +101,13 @@ var modalEmail = document.getElementById("modalEmail");
 var modalUsername = document.getElementById("modalUsername");
 var modalName = document.getElementById("modalName");
 var usuarioCorrente;
+var usuarioCorrenteJSON;
 function headerDisplay(){
   adminButton.style.display = 'none';
   if (usuarioCorrenteJSON){
     navCreateAccBtn.style.display = 'none';
     navLoginBtn.style.display = 'none';
-    if (usuarioCorrente.nome = 'admin') adminButton .style.display = 'inline';
+    if (usuarioCorrente.login === 'admin') adminButton .style.display = 'inline';
   }
   else myAccountButton.style.display = 'none';
 }

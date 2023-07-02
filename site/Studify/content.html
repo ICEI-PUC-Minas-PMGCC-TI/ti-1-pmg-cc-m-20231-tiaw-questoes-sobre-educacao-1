@@ -10,7 +10,6 @@
 	<link rel="stylesheet" href="assets/css/global/header.css"> <!--css para o header-->
 	<link rel="stylesheet" href="assets/css/global/footer.css"> <!--css para o footer-->
 	<link rel="stylesheet" href="assets/css/global/modalLogin.css"> <!--css para o modal do login-->
-
 	
 	<!--LINKS EXTERNOS PARA HEADER, FOOTER E MAIS-->
 	<link rel="shortcut icon" href="assets/img/img-homepage/favicon.ico" />
@@ -58,21 +57,27 @@
 
 			<div class="button-login">
 				<!-- Not logged in -->
-				<a href="nonUserHtmls/login.html">
-					<button onclick="login()" class="login">Entrar</button>
+				<a href="login.html">
+					<button onclick="login()" id = "navLoginBtn" class="login">Entrar</button>
 				</a>
-				<a href="criarConta.html">
-					<button onclick="create()" class="create">Crie sua conta grátis</button>
+				<a href="login.html">
+					<button onclick="create()"id = "navCreateAccBtn" class="create">Crie sua conta grátis</button>
 				</a>
-				<!-- Logged in (currently disabled until js function added)-->
-				<!--<button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>-->
+				<!-- Logged in-->
+				<button onclick="openModal()" class="my_account" id="myAccountButton">Minha conta</button>
+				<!-- Admin-->
+				<a href="nonUserHtmls/CadFiltro.html">
+					<button class="my_account" id="adminButton">Admin</button>
+				</a>
+				
 			</div>
 		</div>
 	</nav>
 </header>
 
 <body>
-    <div class="titulo">
+    
+    <div class="container-fluid titulo">
         <h1 id="conteudo"> Revolução Francesa </h1>
     </div>
 
@@ -133,7 +138,7 @@
             dias atuais.
         </p>
 
-
+        
         <button id="btnSalvar">
             Salvar
         </button>
@@ -154,6 +159,7 @@
         </div>
     </div>
 
+   
     <!--FOOTER USADO POR TODOS OS DOCUMENTOS-->
     <footer class="footer">
         <div class="coluna1">
@@ -190,20 +196,21 @@
 
     <!-- MODAL USADO PELO HEADER PARA LOGIN -->
     <div id="myAccountModal" class="modal">
-        <div class="modal-content">
-            <h1>Minha Conta</h1>
-            <img src="assets/img/img-perfil/default.jpeg" alt="Imagem do perfil">
-            <div class="info">
-                <p><strong>Nome:</strong> <span id="name"></span></p>
-                <p><strong>Usuário:</strong> <span id="username"></span></p>
-                <p><strong>Email:</strong> <span id="email"></span></p>
-                <button onclick="logout()">Sair</button>
-            </div>
-        </div>
-    </div>
+		<div class="modal-content">
+			<h1>Minha Conta</h1>
+			<img src="assets/img/img-perfil/default.jpeg" alt="Imagem do perfil">
+			<div class="info">
+				<p><strong>Nome:</strong> <span id="modalName"></span></p>
+				<p><strong>Usuário:</strong> <span id="modalUsername"></span></p>
+				<p><strong>Email:</strong> <span id="modalEmail"></span></p>
+				<button onclick="logout()">Sair</button>
+			</div>
+		</div>
+	</div>
     <script src="assets/js/newsletter.js"></script> <!--js newsletter-->
     <script src="assets/js/modalLogin.js"></script> <!--js modal do login-->
     <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>
