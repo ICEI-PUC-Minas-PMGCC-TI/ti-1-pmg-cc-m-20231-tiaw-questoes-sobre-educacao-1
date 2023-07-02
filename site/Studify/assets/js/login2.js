@@ -13,7 +13,7 @@ function logout() {
   // Aqui você pode adicionar a lógica para realizar o logout, como fazer uma requisição ao servidor ou limpar os dados do localStorage
   alert("Logout realizado com sucesso!");
   // Redirecionar para a página de login
-  window.location.href = "homepage.html";
+  window.location.href = "index.html";
 }
 // Recuperar os dados do login
 var loginInfo = localStorage.getItem("loginInfo");
