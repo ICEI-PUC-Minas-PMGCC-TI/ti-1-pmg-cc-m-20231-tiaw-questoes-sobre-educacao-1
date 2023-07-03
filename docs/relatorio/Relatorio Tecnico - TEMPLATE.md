@@ -324,12 +324,6 @@ A branch principal, a *master* conterá o conteúdo de entrega preparada. Quando
 A branch *develop* terá a versão com as features mais recentemente adicionadas, e será onde branches de *features*, onde os integrantes irão programar separadamente adições distintas no código, serão mescladas. 
 A branch *develop* entrará em um processo de revisão depois da adição das features desejadas para a nova versão, e caso ela seja estável, será mesclada com a branch *master*. Caso ela não seja, ela mesclara com a *master* e seguirá como um branch *develop* até que os problemas de instabilidade sejam resolvidos. 
 
-O projeto adota a seguinte convenção para as tags:
-- *testing* - A branch está sendo testada antes de ser enviar um pull request
-- *bugfix* - A branch tem um bug que precisa de ser resolvido
-- *enhancement* - A branch precisa de melhorar alguma sua funcionalidade
-- *feature* - A branch tem features pendentes a serem puxadas
-
 O projeto adota a seguinte convenção para a nomenclatura das versões:
 - A primeira versão de uma branch nova será 1.0.0
 - Mudanças muito pequenas como a correção ortográfica do código incrementam o último decimal (x. x. x+1)
@@ -348,27 +342,25 @@ Nosso projeto se baseia na problemática da falta de confiabilidade e organizaç
 Nosso grupo fez uso de algumas tecnologias que eram fundamentais para a criação do trabalho. Entre elas estão o git, na qual usamos para integrar todas as partes do nosso trabalho, nos ajudou a organizar todo nosso sistema para uma eficácia maior na hora de trabalharmos. Usamos o Vs Code, que foi o principal método de progamação do grupo, foi utilizado com a participação do git para fazer todas as mudanças feitas. E por fim, usamos dentro das funcionalidades do nosso site, o YouTube, que é de suma importância para a apresentação das informações que nosso site busca agrupar, ele é uma grande ferramenta que faz nosso site ter um diferencial em quesitos de agrupamento de soluções nos estudos.
 
  ![Nosso user flow](images/flowmap.png)
- Nosso userflow mais detalhado pelo marvel, com todas as features previstas
  
-![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-questoes-sobre-educacao-1/assets/65474060/0d05d647-7822-42e2-af43-35b697807b35
-Userflow simplificado, detalhando o projeto atual de forma mais fácil de visualizar
+ Se você se sentiu familiziarizado com este userflow, é por que este foi o mesmo que apresentamos previamente neste documento. Ele mostra a simples interconexão entre as diversas opção de navegação da página principal com as outras página auxiliares, o que simplifica muito ter uma visão geral do fluxo
+ 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-questoes-sobre-educacao-1/assets/65474060/0d05d647-7822-42e2-af43-35b697807b35)
 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+Este novo userflow por vez mostra a interconexão de forma mais detalhada do protótipo mais recente, mostrando o possíveis usos passo a passo do site
+
+
 
 ## Arquitetura da solução
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-questoes-sobre-educacao-1/assets/65474060/152782db-3061-448a-b4a2-01c2c1a88945)
+
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-questoes-sobre-educacao-1/assets/65474060/dac176e8-54b4-4820-985d-14fb3a2c290a)
+
+Por se um trabalho mais focado no front-end, não temos muita base em comunicar com servidores externos. Como podemos ver pelo fluxo, a maioria dos dados são pegos pelo protótipo atual usando o local storage, e a unica comunicação que temos fora do servidor hospedeiro com a máquina seria com os iframes de vídeos do youtube
 
 # Avaliação da Aplicação
 
