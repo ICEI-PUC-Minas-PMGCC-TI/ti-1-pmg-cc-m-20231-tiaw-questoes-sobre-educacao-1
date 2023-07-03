@@ -1,6 +1,7 @@
 .l-body {
         margin: 0;
         padding: 0;
+        
 }
 
 .l-section {
@@ -8,6 +9,7 @@
         background-color: #774CED;
         padding: 220px;
         max-width: 100%;
+        margin-top: -80px;
 }
 
 .mockup {
@@ -29,7 +31,6 @@
         background-color: #C8A3FF;
         border: none;
         border-radius: 5px;
-        width: 310px;
         height: 32px;
         font-family: 'Lato', sans-serif;
 }
@@ -43,6 +44,7 @@
         border: none;
         height: 32px;
         width: 227px;
+        align-items: center;
 }
 
 #btnBusca {
@@ -85,7 +87,6 @@
 .grid-carousel {
         margin: auto;
         max-width: 80%;
-        height: 200px;
         display: grid;
         grid-auto-flow: column;
         gap: 10px;

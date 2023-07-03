@@ -2,7 +2,6 @@
 
 body {
     padding-top: 0 !important; /*Tamanho da navbar encontrado após usar js = 75px.*/
-   
 
 }
 /*Começo do header*/ /*Header global em uso, comentei o header aqui*/
@@ -135,7 +134,6 @@ header {
 
 .container {
     margin-top: 20px;
-    margin-left: 100px;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -143,6 +141,7 @@ header {
 .titulo {
     background-color: #774CED;
     height: 130px;
+    margin-top: 90px;
 }
 
 #conteudo {

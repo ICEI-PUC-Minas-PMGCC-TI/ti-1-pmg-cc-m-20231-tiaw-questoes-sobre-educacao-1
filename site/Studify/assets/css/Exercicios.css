@@ -1,4 +1,6 @@
-
+main{
+  margin: 0 100px;
+}
 
 .social-kit{
     font-size: 20px;
@@ -10,7 +12,7 @@
 }
 
 
-body .Exercicios{
+.Exercicios{
   width: 100%; 
   height: 100px;
   background-color: #5636AC;
@@ -18,7 +20,7 @@ body .Exercicios{
   text-align: center;
   justify-content: center;
   color: white;
-
+  margin: 0;
   font-weight: normal;
   padding: 2%;
 
@@ -55,7 +57,7 @@ body .questao1{
 #scrollButton{
   position: absolute;
   bottom: 15px;
-  right: 40px;
+  right: 100px;
   border: none;
   height: 30px;
   line-height: 20px;

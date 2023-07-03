@@ -3,6 +3,9 @@
 body {
   padding-top: 100px !important; /*prioridade sobre header*/
 }
+main{
+  margin: 0 100px;
+}
 
 @media (min-width: 992px) {
   .collapse {
@@ -27,18 +30,18 @@ div.selection p {
 }
 
 .filtro {
-    background-color: rgba(241,243,245, 1);
-    padding: 10px;
-    border-radius: 10px;
+    background-color:#d3a6ff;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 0 1px;
 }
 
 #cabeçalhofiltro{
     font-size: 20px;
     font-weight: bold;
-  
-    padding: 10px;
-    margin-bottom: 3%;
- 
+    padding: 10px; 
+    margin-top: 10px;
+    color: #774CED;
 }
 
 .opcoes {
@@ -46,18 +49,16 @@ div.selection p {
 }
 
 #botaoPesquisar {
-    background-color:white;
-    color: rgb(0, 0, 0);
+    background-color:#774CED;
+    color: rgb(255, 255, 255);
     padding: 5px 10px;
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
     display: block;
-    margin-top: 2%;
     margin-left: auto;
-
     width: 100px; /* Aumenta a largura do botão */
-    border: 2px solid rgb(0, 0, 0); /* Modifica a borda do botão */
+    border: none;
   }
   
   .selection{
@@ -88,7 +89,11 @@ div.selection p {
   }
   .card {
     margin: 2% 0;
-    max-width: 70%;
+  }
+  .btn-primary{
+    background-color: #774CED;
+    border: none;
+
   }
 
   @media (max-width: 992px){

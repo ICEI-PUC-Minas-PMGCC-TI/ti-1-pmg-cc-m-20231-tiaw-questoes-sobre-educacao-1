@@ -25,6 +25,7 @@
   height: 100%;
   overflow: y;
   background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
 }
 
 .modal .modal-content {
@@ -47,7 +48,7 @@
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  margin-bottom: 20px;
+  margin: auto auto 20px;
 }
 
 .modal .modal-content p {
