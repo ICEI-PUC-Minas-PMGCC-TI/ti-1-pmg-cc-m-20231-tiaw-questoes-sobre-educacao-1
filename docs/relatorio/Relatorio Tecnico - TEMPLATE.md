@@ -54,6 +54,7 @@ Ciências da Computação/Turno:manhã
 
 # Introdução
 
+
 > Com o aumento da disponibilidade de conteúdos on-line, nos dias de hoje
 > se torna necessário a validação e o englobamento desses materiais para 
 > facilitar e melhorar a experiencia do usuário.
@@ -345,6 +346,12 @@ Nosso projeto se baseia na problemática da falta de confiabilidade e organizaç
 ## Tecnologias Utilizadas
 
 Nosso grupo fez uso de algumas tecnologias que eram fundamentais para a criação do trabalho. Entre elas estão o git, na qual usamos para integrar todas as partes do nosso trabalho, nos ajudou a organizar todo nosso sistema para uma eficácia maior na hora de trabalharmos. Usamos o Vs Code, que foi o principal método de progamação do grupo, foi utilizado com a participação do git para fazer todas as mudanças feitas. E por fim, usamos dentro das funcionalidades do nosso site, o YouTube, que é de suma importância para a apresentação das informações que nosso site busca agrupar, ele é uma grande ferramenta que faz nosso site ter um diferencial em quesitos de agrupamento de soluções nos estudos.
+
+ ![Nosso user flow](images/flowmap.png)
+ Nosso userflow mais detalhado pelo marvel, com todas as features previstas
+ 
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-questoes-sobre-educacao-1/assets/65474060/0d05d647-7822-42e2-af43-35b697807b35
+Userflow simplificado, detalhando o projeto atual de forma mais fácil de visualizar
 
 > Inclua os diagramas de User Flow, esboços criados pelo grupo
 > (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
