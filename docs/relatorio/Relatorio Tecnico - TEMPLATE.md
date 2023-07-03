@@ -330,7 +330,6 @@ O projeto adota a seguinte convenção para a nomenclatura das versões:
 - Mudanças mais significativas como bugfixes e novas feature incrementam a versão no decimal do meio (x. x+1. x)
 - Mudanças muito significativas como o lançamento de uma novo produto teste para o cliente incrementam o primeiro decimal (x+1. x. x)
 
-# **############## SPRINT 1 ACABA AQUI #############**
 
 
 # Projeto da Solução
@@ -353,10 +352,7 @@ Este novo userflow por vez mostra a interconexão de forma mais detalhada do pro
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
-
-![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-questoes-sobre-educacao-1/assets/65474060/152782db-3061-448a-b4a2-01c2c1a88945)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-m-20231-tiaw-questoes-sobre-educacao-1/assets/65474060/dac176e8-54b4-4820-985d-14fb3a2c290a)
 
